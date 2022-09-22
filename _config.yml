@@ -1,6 +1,7 @@
 title: "My Portfolio"
 author: "Hamid Manouchehri"
-description: "Good to see you, Welcome to my website."
+excerpt_separator: "\n\n\n"
+description: "Robotic Engineer & Researcher"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
