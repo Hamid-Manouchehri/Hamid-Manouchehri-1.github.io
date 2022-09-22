@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "CV_22Sep2022.pdf", icon: file-pdf, title: "Vita"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "https://hamid.manouchehri.njf@gmail.com"}
+  - {title: Mail, icon: envelope, url: "mailto:hamid.manouchehri.njf@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/Hamid-Manouchehri"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/hamid-manouchehri"}
   - {title: ResearchGate, icon: researchgate, url: "https://www.researchgate.net/profile/Hamid-Manouchehri-2"}
