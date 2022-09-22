@@ -1,23 +1,8 @@
 ![no_sign](https://user-images.githubusercontent.com/25512825/191785764-436d5ea2-670a-41e9-b2fc-d366709d2146.jpg)
 
----
-title: "about me"
----
+### about me
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+This is __Hamid Manouchehri__. I am a robotic reseracher who is intereseted in making intelligent practical robots with hands and legs to serve human. I do not consider myself a software nor hardware engineer, rather I like it to be specialized in software and hardware merely related to robots or more broadly mechatronics systems.I am keen to be involved in projects mostly related to _motion_, _manipulation_ and _perception_ of the robot. 
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
