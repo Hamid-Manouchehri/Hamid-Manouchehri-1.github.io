@@ -16,9 +16,9 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", icon: user, title: "bio"}
-  - {file: "README.md", icon: robot, title: "projects"}
-  - {file: "CV_22Sep2022", icon: github, title: "vita"}
+  - {file: "index.html", icon: user, title: "Bio"}
+  - {file: "README.md", icon: <i class="fa-solid fa-robot-astromech"></i>, title: "Projects"}
+  - {file: "CV_22Sep2022", icon: github, title: "Vita"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "www.hamid.manouchehri.njf@gmail.com"}
