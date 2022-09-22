@@ -17,7 +17,7 @@ minimal: true             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", icon: user, title: "Bio"}
-  - {file: "README.md", icon: <i class="fa-solid fa-robot-astromech"></i>, title: "Projects"}
+  - {file: "README.md", icon: <p class="fa-solid fa-robot-astromech"></p>, title: "Projects"}
   - {file: "CV_22Sep2022", icon: github, title: "Vita"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
