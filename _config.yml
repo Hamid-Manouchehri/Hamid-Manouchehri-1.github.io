@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", icon: github, title: projects}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "hamid.manouchehri.njf@gmail.com"}
+  - {title: Mail, icon: envelope, url: "www.hamid.manouchehri.njf@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/Hamid-Manouchehri"}
   - {title: LinkedIn, icon: linkedin, url: "www.linkedin.com/in/hamid-manouchehri"}
   - {title: ResearchGate, icon: researchgate, url: "https://www.researchgate.net/profile/Hamid-Manouchehri-2"}
