@@ -1,4 +1,5 @@
 ![no_sign](https://user-images.githubusercontent.com/25512825/191785764-436d5ea2-670a-41e9-b2fc-d366709d2146.jpg)
+background-position : center
 
 ### about me
 
