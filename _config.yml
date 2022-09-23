@@ -1,7 +1,7 @@
 title: "My Portfolio"
 author: "Hamid Manouchehri"
 excerpt_separator: "\n\n\n"
-description: "<br><br><br><br><b style=\"color: #f45;\"> Mechatronics Engineer & Robotics Researcher: Dynamics, Control, Software </b>"
+description: "<br><br><br><br><br><br><br><b style=\"color: #f45;\"> Mechatronics Engineer & Robotics Researcher: Dynamics, Control, Software </b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
