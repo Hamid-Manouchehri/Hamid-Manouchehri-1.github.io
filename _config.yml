@@ -15,7 +15,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "", title: "<b style=\"color: #f45;\"> Hamid Manouchehri </b>"}
+  - {file: "", title: <b style=\"color: #f45;\"> Hamid Manouchehri </b>}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Projects, icon: robot, url: "/projects/projects.html"}
