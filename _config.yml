@@ -7,12 +7,6 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-# title: My Module
-# context:
-#   someHTML: <p>Yehaw!</p>
-
-# Layout
-
 show_excerpts: false        # show article excerpts on the home page
 show_frame: false           # adds a gray frame to the site
 show_sidebar: true        # show a sidebar instead of the usual header
@@ -21,7 +15,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "", file: ""}
+  - {title: "", icon: , file: ""}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Projects, icon: robot, url: "/projects/projects.html"}
