@@ -1,7 +1,8 @@
 # title: "My Portfolio"
 author: "Hamid Manouchehri"
 excerpt_separator: "\n\n\n"
-description: "Robotic Engineer & Researcher"
+description: 
+  bold: "Hamid Manouchehri Robotic Engineer & Researcher"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -21,7 +22,6 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - title: <p>Yehaw!</p>
   - {title: ""}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
