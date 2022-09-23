@@ -17,14 +17,15 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "_posts/2022-09-22-about_me.md", icon: user, title: "Bio"}
+#   - {file: "_posts/2022-09-22-about_me.md", icon: user, title: "Bio"}
 #   - {file: "README.md", icon: robot, title: "Projects"}
 #   - {file: "CV_22Sep2022.pdf", icon: file-pdf, title: "Vita"}
-  - {file: <embed src=https://Hamid-Manouchehri.github.io/CV_22Sep2022.pdf type="application/pdf"/>, icon: file-pdf, title: "Vita"}
+#   - {file: <embed src=https://Hamid-Manouchehri.github.io/CV_22Sep2022.pdf type="application/pdf"/>, icon: file-pdf, title: "Vita"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Projects, icon: envelope, url: "/Projects.html"}
-  - {title: Vita, icon: envelope, url: "https://Hamid-Manouchehri.github.io/CV_22Sep2022.pdf"}
+  - {title: Bio, icon: user, url: "/_posts/2022-09-22-about_me.md"}
+  - {title: Projects, icon: robot, url: "/Projects.html"}
+  - {title: Vita, icon: file-pdf, url: "/pdf_files/CV_v4_Hamid_Manouchehri_blog_added.pdf"}
   - {title: Mail, icon: envelope, url: "mailto:hamid.manouchehri.njf@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/Hamid-Manouchehri"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/hamid-manouchehri"}
