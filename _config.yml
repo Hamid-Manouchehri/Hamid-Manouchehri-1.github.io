@@ -17,7 +17,8 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Bio", icon: user, file: "index.html"}
+<h1></h1>
+#   - {title: "Bio", icon: user, file: "index.html"}
 #   - {file: "README.md", icon: robot, title: "Projects"}
 #   - {file: "CV_22Sep2022.pdf", icon: file-pdf, title: "Vita"}
 #   - {file: <embed src=https://Hamid-Manouchehri.github.io/CV_22Sep2022.pdf type="application/pdf"/>, icon: file-pdf, title: "Vita"}
