@@ -1,12 +1,4 @@
-
-<head>
-    <title>Mohammadreza Nakhaei, Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-    <meta name="keywords" content="cv, deep reinforcement learning, robotics" />
-</head>
-
-title: "My Portfolio"
+# title: "My Portfolio"
 author: "Hamid Manouchehri"
 excerpt_separator: "\n\n\n"
 description: "Robotic Engineer & Researcher"
