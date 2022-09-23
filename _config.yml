@@ -1,8 +1,9 @@
 # title: "My Portfolio"
 author: "Hamid Manouchehri"
 # excerpt_separator: "\n\n\n"
-description: 
-bold: "Hamid Manouchehri Robotic Engineer & Researcher"
+description:
+  bold: 
+    - "Hamid Manouchehri Robotic Engineer & Researcher"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
