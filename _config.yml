@@ -13,15 +13,6 @@
             window.scrollTo(0, 1);
         }
     </script>
-    <!-- Custom Theme files -->
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-    <!-- font-awesome icons -->
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <!-- //Custom Theme files -->
-    <!-- online-fonts -->
-# 	<link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-   <!-- //online-fonts -->
 
 </head>
 
