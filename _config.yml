@@ -22,7 +22,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: ""}
+  - {title: "", file: ""}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Projects, icon: robot, url: "/projects/projects.html"}
