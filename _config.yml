@@ -23,6 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #   - {file: <embed src=https://Hamid-Manouchehri.github.io/CV_22Sep2022.pdf type="application/pdf"/>, icon: file-pdf, title: "Vita"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Bio, icon: user, url: "/Bio/about_me.html"}
   - {title: Projects, icon: robot, url: "/projects/projects.html"}
   - {title: Vita, icon: file-pdf, url: "/pdf_files/CV_v4_Hamid_Manouchehri_blog_added.pdf"}
   - {title: Mail, icon: envelope, url: "mailto:hamid.manouchehri.njf@gmail.com"}
