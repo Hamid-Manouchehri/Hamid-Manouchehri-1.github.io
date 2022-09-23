@@ -7,9 +7,9 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-title: My Module
-context:
-  someHTML: <p>Yehaw!</p>
+# title: My Module
+# context:
+#   someHTML: <p>Yehaw!</p>
 
 # Layout
 
@@ -21,6 +21,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - title: <p>Yehaw!</p>
   - {title: ""}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
