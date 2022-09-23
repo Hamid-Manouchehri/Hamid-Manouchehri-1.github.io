@@ -7,7 +7,9 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-<h3>SALAM</h3>
+title: My Module
+context:
+  someHTML: <p>Yehaw!</p>
 
 # Layout
 
