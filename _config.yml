@@ -1,7 +1,6 @@
 title: "My Portfolio"
 author: "Hamid Manouchehri"
 excerpt_separator: "\n\n\n"
-description: "<b style=\"color: #f45;\">Robotics Engineer & Researcher</b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -13,6 +12,8 @@ show_sidebar: true        # show a sidebar instead of the usual header
 minimal: true             # use a dark header
 
 # Menu
+
+description: "<b style=\"color: #f45;\">Robotics Engineer & Researcher</b>"
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "", title: Hamid Manouchehri}
