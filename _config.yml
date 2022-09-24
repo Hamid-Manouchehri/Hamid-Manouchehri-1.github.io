@@ -18,7 +18,7 @@ minimal: true             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: Hamid Manouchehri, icon: user, file: "index.html"}
 #   - {title: Projects, icon: robot, url: "/projects/projects.html"}
-  - {title: Projects, icon: robot, file: "/projects/projects.html"}
+  - {title: Projects, icon: robot, file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
 #   - {title: Projects, icon: robot, url: "/projects/projects.html"}
