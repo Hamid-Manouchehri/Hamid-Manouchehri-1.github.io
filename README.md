@@ -1,7 +1,2 @@
----
-title: "About"
-permalink: "/about/"
-layout: page
----
 
-## Installation
+### __Welcome to my Blog__
