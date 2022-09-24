@@ -1,3 +1,6 @@
+
+![my_image](./img/bio_image/about_img.png)
+
 This is <b>Hamid Manouchehri</b>. I am a robotic reseracher who is intereseted in making intelligent practical robots
 with hands and legs to serve human. 
 I do not consider myself a software nor hardware engineer, 
