@@ -17,9 +17,10 @@ minimal: true             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: Hamid Manouchehri, icon: user, file: "index.html"}
+  - {title: Projects, icon: robot, url: "/projects/projects.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Projects, icon: robot, url: "/projects/projects.html"}
+#   - {title: Projects, icon: robot, url: "/projects/projects.html"}
   - {title: Vita, icon: file-pdf, url: "/pdf_files/CV_v4_Hamid_Manouchehri_blog_added.pdf"}
   - {title: Mail, icon: envelope, url: "mailto:hamid.manouchehri.njf@gmail.com"}
   - {title: GitHub, icon: github, url: "https://github.com/Hamid-Manouchehri"}
