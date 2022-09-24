@@ -1,8 +1,6 @@
-
 <p style="text-align:center;">
   <img width="450" height="439" src="/img/bio_image/about_img.png" alt="Logo">
 </p>
-
 This is __Hamid Manouchehri__. I am a robotic reseracher who is intereseted in making intelligent practical robots with hands and legs to serve human. 
 I do not consider myself a software nor hardware engineer, rather I'd like to be specialized in combination of software and hardware merely related to robots or more broadly mechatronics systems. I am keen to be involved in projects mostly related to design and control of motion, manipulation and perception of a robot. It's my vision to be an expert in __ROS__ (Robot Operating System) and develop it to be a separate independet operating system for every single robot.
 
