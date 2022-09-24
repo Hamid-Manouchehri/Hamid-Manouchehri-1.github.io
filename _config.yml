@@ -22,7 +22,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Projects, icon: robot, url: "/projects/projects.html"}
   - {title: Vita, icon: file-pdf, url: "/pdf_files/CV_v4_Hamid_Manouchehri_blog_added.pdf"}
   - {title: Mail, icon: envelope, url: "mailto:hamid.manouchehri.njf@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/Hamid-Manouchehri"}
+  - {title: GitHub, icon: github, url: "https://github.com/Hamid-Manouchehri"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/hamid-manouchehri"}
   - {title: ResearchGate, icon: researchgate, url: "https://www.researchgate.net/profile/Hamid-Manouchehri-2"}
 
