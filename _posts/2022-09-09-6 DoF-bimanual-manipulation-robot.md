@@ -32,7 +32,7 @@ Although the control approach is dynamic cancellation, It was cumbersome to adju
 First the desired trajectory of the object (green box) is calculated, a triangular path in this case. After that, regrading dynamic equations of robot and object are derived in joint space, it is necessary to determine desired joint position, velocity and acceleration.
 What is notable in this method is that, the effect of force and torque of object in hands' contacts (end-effectors) of robot, removes by a projector, obtained from __orthogonal decomposition__ of a specially defined jacobian. Therefore the total dynamics equation becomes free from the effect of the object, so it is possible to specify inverse dynamics of arms analytically.
 
-<img src="https://latex.codecogs.com/svg.image?\hat{M}\ddot{q}&plus;\hat{h}=S^{T}\tau=S^{T}\tau&space;&plus;&space;J_{g}^{T}\lambda_{a};\mathbf{(1)}&space;" title="no title" />
+<img src="https://latex.codecogs.com/svg.image?\hat{M}\ddot{q}&plus;\hat{h}=S^{T}\tau=S^{T}\tau&space;&plus;&space;J_{g}^{T}\lambda_{a};\mathbf{(1)}&space;" title="no title" /> <br>
 <img src="https://latex.codecogs.com/svg.image?P(\hat{M}\ddot{q}&plus;\hat{h})=PS^{T}\tau;&space;\mathbf{(2)}" title="no title" />
 
 
