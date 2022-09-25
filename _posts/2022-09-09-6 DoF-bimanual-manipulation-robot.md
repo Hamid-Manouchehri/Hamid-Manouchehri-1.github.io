@@ -1,7 +1,7 @@
 ---
 title:  "6 DoF Bi-manual Manipulation"
 mathjax: true
-layout: post
+layout: page
 categories: media
 ---
 
