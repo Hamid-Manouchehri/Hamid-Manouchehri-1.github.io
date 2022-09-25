@@ -5,9 +5,9 @@ As a part of my master's thesis, for implementing the inverse dynamics algorithm
   <img style="text-align:center;" width="275" height="265" src="/img/6dof_bimanual_manipulation/bimanual_2.png" alt="Logo">
   <img style="text-align:right;" width="275" height="265" src="/img/6dof_bimanual_manipulation/bimanual_3.png" alt="Logo">
   <figcaption>
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig.1
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig.2
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig.3 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 1
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 2
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 3 
   </figcaption>
 </p>
 
@@ -17,11 +17,12 @@ Although the control approach is dynamic cancellation, It was cumbersome to adju
   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
   <img style="text-align:center;" width="651" height="269" src="/img/6dof_bimanual_manipulation/control_system.png" alt="Logo">  
   <figcaption>
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
-    Fig.4, <i> Introduction to Robotics, Craig </i>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+    Fig. 4, <i> Introduction to Robotics, Craig </i>
   </figcaption>
 </p>
 
 First the desired trajectory of the object (green box) is calculated, a triangular path in this case. After that, regrading dynamic equations of robot and object are derived in joint space, it is necessary to determine desired joint position, velocity and accelation.
+What is notable in this method is that, the effect of force and torque of object in hands' contacts (end-effectors) of robot, projects into a space called _sub-manifold_ that is _constraint consistent_. Therefore the total dynamics equation becomes free from the effect of the object, so it is possible to specify inverse dynamics of arms analytically.
 
 
