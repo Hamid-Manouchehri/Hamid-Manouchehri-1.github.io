@@ -11,11 +11,11 @@ As a part of my master's thesis, for implementing the inverse dynamics algorithm
   <img style="text-align:center;" width="755" height="199" src="/img/6dof_bimanual_manipulation/fig_123.png" alt="Logo">
 </p>
 
-<!-- <img style="text-align:center;" width="755" height="199" src="/img/6dof_bimanual_manipulation/fig_123.png" alt="Logo"> -->
-
 Although the control approach is dynamic cancellation, It was cumbersome to adjust joints' `damping` and `friction` in URDF model.
 
-<img style="text-align:center;" width="651" height="269" src="/img/6dof_bimanual_manipulation/control_system_caption.png" alt="Logo">  
+<p style="text-align:center;">
+  <img style="text-align:center;" width="651" height="269" src="/img/6dof_bimanual_manipulation/control_system_caption.png" alt="Logo">  
+</p>
 
 First the desired trajectory of the object (green box) is calculated, a triangular path in this case. After that, regrading dynamic equations of robot and object are derived in joint space, it is necessary to determine desired joint position, velocity and acceleration.
 What is notable in this method is that, the effect of force and torque of object in hands' contacts (end-effectors) of robot, removes by a projector, obtained from __orthogonal decomposition__ of a specially defined jacobian. Therefore the total dynamics equation becomes free from the effect of the object, so it is possible to specify inverse dynamics of arms analytically.
