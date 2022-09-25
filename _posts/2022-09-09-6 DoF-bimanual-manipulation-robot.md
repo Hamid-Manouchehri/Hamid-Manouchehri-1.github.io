@@ -7,7 +7,11 @@ categories: media
 
 As a part of my master's thesis, for implementing the inverse dynamics algorithm to an upper-body bi-manual robot base on my supervisor [paper](https://www.researchgate.net/publication/320330613_Inverse_Dynamics_Control_of_Bimanual_Object_Manipulation_Using_Orthogonal_Decomposition_An_Analytic_Approach) in a 3D simulator, I had to work with __Gazebo__. First the [URDF](http://wiki.ros.org/urdf) model of the robot was prepared by the help of my teammate, Ms [Nooshin Kohli](https://github.com/nooshin-kohli), then other dependencies like torque controllers of joints, launch file, and etc attached, finally of courese the script of algorithm was written by a great deal of work. Actually the fundaments of algorithm for a 2D simulation was obtained beforehand by my supervisor and I developed it to 3D simulation in Gazebo.
 
-<img style="text-align:center;" width="755" height="199" src="/img/6dof_bimanual_manipulation/fig_123.png" alt="Logo">
+<p style="text-align:center;">
+  <img style="text-align:center;" width="755" height="199" src="/img/6dof_bimanual_manipulation/fig_123.png" alt="Logo">
+</p>
+
+<!-- <img style="text-align:center;" width="755" height="199" src="/img/6dof_bimanual_manipulation/fig_123.png" alt="Logo"> -->
 
 Although the control approach is dynamic cancellation, It was cumbersome to adjust joints' `damping` and `friction` in URDF model.
 
