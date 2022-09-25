@@ -2,9 +2,15 @@ As a part of my master's thesis, for implementing inverse dynamics algorithm to 
 
 <p>
   <img style="text-align:left;" width="260" height="250" src="/img/6dof_bimanual_manipulation/bimanual_1.png" alt="Logo">
-  <figcaption> fig.1-1st trajectory </figcaption>
   <img style="text-align:center;" width="260" height="250" src="/img/6dof_bimanual_manipulation/bimanual_2.png" alt="Logo">
-  <figcaption> fig.2-2nd trajectory </figcaption>
   <img style="text-align:right;" width="260" height="250" src="/img/6dof_bimanual_manipulation/bimanual_3.png" alt="Logo">
-  <figcaption> fig.3-3rd trajectory </figcaption>
+  <figcaption>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.1
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.2
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.3 
+  </figcaption>
 </p>
+
+
+
+
