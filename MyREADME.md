@@ -11,3 +11,4 @@
 6. Do not change `_posts/` files into `html`, it is easier to work with [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) syntax and even it supports `html`.
 7. Sometimes page `refresh` does not function, to see the changes of commits, so it is a good idea to close the tab and open it again: <br>
    `setting` > `pages` > link of the blog
+8. To generate equations for the web pages, go to [CODECOGE](https://www.codecogs.com/eqnedit.php), write your equation and remember to select `HTML` output. To label you equation, at the end of equation put `;` then write `equ(number_of_equation)`.
