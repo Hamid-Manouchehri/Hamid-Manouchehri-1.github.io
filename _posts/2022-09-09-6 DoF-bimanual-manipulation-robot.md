@@ -5,9 +5,9 @@ As a part of my master's thesis, for implementing inverse dynamics algorithm to 
   <img style="text-align:center;" width="260" height="250" src="/img/6dof_bimanual_manipulation/bimanual_2.png" alt="Logo">
   <img style="text-align:right;" width="260" height="250" src="/img/6dof_bimanual_manipulation/bimanual_3.png" alt="Logo">
   <figcaption>
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.1
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.2
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.3 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.1
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.2
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.3 
   </figcaption>
 </p>
 
