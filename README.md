@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: "/about/"
-layout: page
+layout: post
 ---
 
 <!-- For initial loading of page it must be `README.md` file, image and paragraphs are written in html for better control and configuration in web page, please do not convert them into markdown syntax. -->
