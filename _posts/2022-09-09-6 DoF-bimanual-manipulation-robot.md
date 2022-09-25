@@ -7,7 +7,7 @@ As a part of my master's thesis, for implementing inverse dynamics algorithm to 
   <figcaption>
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.1
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.2
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.3 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; fig.3 
   </figcaption>
 </p>
 
