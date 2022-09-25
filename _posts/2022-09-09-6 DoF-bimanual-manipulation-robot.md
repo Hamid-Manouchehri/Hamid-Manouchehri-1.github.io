@@ -12,12 +12,8 @@ As a part of my master's thesis, for implementing the inverse dynamics algorithm
 </p>
 
 Although the control approach is dynamic cancellation, It was cumbersome to adjust joints' `damping` and `friction` in URDF model.
-
 <p>
-  <img style="text-align:center;" width="663" height="275" src="/img/6dof_bimanual_manipulation/control_system.png" alt="Logo">
-  <figcaption>
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig.4, from <i>Introduction to Robotics; Craig</i>, 
-  </figcaption>
+  <img style="text-align:right;" width="400" height="275" src="/img/6dof_bimanual_manipulation/control_system.png" alt="Logo">
 </p>
 
 
