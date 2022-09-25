@@ -22,7 +22,11 @@ Although the control approach is dynamic cancellation, It was cumbersome to adju
   </figcaption>
 </p>
 
-First the desired trajectory of the object (green box) is calculated, a triangular path in this case. After that, regrading dynamic equations of robot and object are derived in joint space, it is necessary to determine desired joint position, velocity and accelation.
-What is notable in this method is that, the effect of force and torque of object in hands' contacts (end-effectors) of robot, projects into a space called _sub-manifold_ that is _constraint consistent_. Therefore the total dynamics equation becomes free from the effect of the object, so it is possible to specify inverse dynamics of arms analytically.
+First the desired trajectory of the object (green box) is calculated, a triangular path in this case. After that, regrading dynamic equations of robot and object are derived in joint space, it is necessary to determine desired joint position, velocity and acceleration.
+What is notable in this method is that, the effect of force and torque of object in hands' contacts (end-effectors) of robot, removes by a projector, obtained from __orthogonal decomposition__ of a specially defined jacobian. Therefore the total dynamics equation becomes free from the effect of the object, so it is possible to specify inverse dynamics of arms analytically.
+
+
+
+
 
 
