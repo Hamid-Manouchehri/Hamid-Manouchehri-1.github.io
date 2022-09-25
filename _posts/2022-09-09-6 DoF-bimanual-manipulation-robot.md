@@ -6,18 +6,18 @@ As a part of my master's thesis, for implementing the inverse dynamics algorithm
   <img style="text-align:right;" width="275" height="265" src="/img/6dof_bimanual_manipulation/bimanual_3.png" alt="Logo">
   <figcaption>
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 1
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 2
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 3 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 2
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 3 
   </figcaption>
 </p>
 
 Although the control approach is dynamic cancellation, It was cumbersome to adjust joints' `damping` and `friction` in URDF model.
 
 <p>
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
   <img style="text-align:center;" width="651" height="269" src="/img/6dof_bimanual_manipulation/control_system.png" alt="Logo">  
   <figcaption>
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
     Fig. 4, <i> Introduction to Robotics, Craig </i>
   </figcaption>
 </p>
