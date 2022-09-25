@@ -22,5 +22,6 @@ Although the control approach is dynamic cancellation, It was cumbersome to adju
   </figcaption>
 </p>
 
+First the desired trajectory of the object (green box) is calculated, a triangular path in this case. After that, regrading dynamic equations of robot and object are derived in joint space, it is necessary to determine desired joint position, velocity and accelation.
 
 
