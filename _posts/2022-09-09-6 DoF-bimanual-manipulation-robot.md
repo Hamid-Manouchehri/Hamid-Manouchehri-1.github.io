@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-As a part of my master's thesis, for implementing the inverse dynamics algorithm to an upper-body bi-manual robot base on my supervisor [paper](https://www.researchgate.net/publication/320330613_Inverse_Dynamics_Control_of_Bimanual_Object_Manipulation_Using_Orthogonal_Decomposition_An_Analytic_Approach) in a 3D simulator, I had to work with __Gazebo__. First the [URDF](http://wiki.ros.org/urdf) model of the robot was prepared by the help of my teammate, Ms [Nooshin Kohli](https://github.com/nooshin-kohli), then other dependencies like torque controllers of joints, launch file, and etc attached, finally of courese the script of algorithm was written by a great deal of work. Actually the fundaments of algorithm for a 2D simulation was obtained beforehand by my supervisor and I developed it to 3D simulation in Gazebo.
+As a part of my master's thesis, for implementing the inverse dynamics algorithm to an upper-body bi-manual robot base on my supervisor [paper](https://www.researchgate.net/publication/320330613_Inverse_Dynamics_Control_of_Bimanual_Object_Manipulation_Using_Orthogonal_Decomposition_An_Analytic_Approach), Dr. [Mohammad Shahbazi](https://scholar.google.com/citations?user=bluC-SMAAAAJ&hl=en), in a 3D simulator, I had to work with __Gazebo__. First the [URDF](http://wiki.ros.org/urdf) model of the robot was prepared by the help of my teammate, Ms [Nooshin Kohli](https://github.com/nooshin-kohli), then other dependencies like torque controllers of joints, launch file, and etc attached, finally of courese the script of algorithm was written by a great deal of work. Actually the fundaments of algorithm for a 2D simulation was obtained beforehand by my supervisor and I developed it to 3D simulation in Gazebo.
 
 <p style="text-align:center;">
   <img style="text-align:center;" width="755" height="199" src="/img/6dof_bimanual_manipulation/fig_123.png" alt="gazebo simulation">
@@ -38,6 +38,6 @@ Some of the results are plotted below,
   <img style="text-align:center;" width="589" height="338" src="/img/6dof_bimanual_manipulation/right_arm_torque_profile.png" alt="right arm torque profile">  
 </p>
 
-
+I have uploaded the video of the simulation on my LinkedIn profile, [check here](https://www.linkedin.com/posts/hamid-manouchehri_manipulation-robotics-gazebo-activity-6978368963860733952-6Sh2?utm_source=share&utm_medium=member_desktop), please. Also, the source code is on my GitHub page, but I'm not allowed to reveal it yet.
 
 
