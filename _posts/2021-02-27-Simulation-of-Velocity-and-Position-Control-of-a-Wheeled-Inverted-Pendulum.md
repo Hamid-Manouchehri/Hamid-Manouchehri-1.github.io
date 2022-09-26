@@ -1,7 +1,7 @@
 ---
 title:  "Simulation"
 mathjax: true
-layout: post
+layout: page
 categories: media
 ---
 
