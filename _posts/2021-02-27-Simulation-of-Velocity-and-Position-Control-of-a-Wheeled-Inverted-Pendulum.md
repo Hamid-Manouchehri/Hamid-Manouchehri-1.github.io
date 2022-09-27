@@ -8,7 +8,7 @@ categories: media
 within the course of __Nonlinear Control__, I was intended to simulate the result of [this paper](https://ieeexplore.ieee.org/document/1435497), __"Velocity and Position Control of a Wheeled Inverted Pendulum by Partial Feedback Linearization"__, via _MATLAB_. Considering the inverted pendulum is an _underactuated system_, it is demanding to control such a _nonlinear_ underactuated system, because there are less controllabe states than total states of the system.
 
 <p style="text-align:center;">
-  <img style="text-align:center;" width="341" height="296" src="/img/sim_wheeled_inverted_pendulum/inverted_pendulum.png" alt="inverted pendulum model">
+  <img width="341" height="296" src="/img/sim_wheeled_inverted_pendulum/inverted_pendulum.png" alt="inverted pendulum model">
 </p>
 
 As we know that __Feedback Linearization__ is a technique for transforming the main system to a simpler form, in this case, first we derive the dynamic equations of the system, next we _partially feedback linearize_ the system, Finally apply the controller.
@@ -97,7 +97,7 @@ In order to control desired parameters of the system, we need two controllers; a
 Simulation of equation (11):
 
 <p style="text-align:center;">
-  
+  <img width="788" height="425" src="/img/sim_wheeled_inverted_pendulum/f_ss_alpha_r.png" alt="f_ss">
 </p>
 
 
