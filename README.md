@@ -1,7 +1,7 @@
 <!-- For initial loading of page it must be `README.md` file, image and paragraphs are written in html for better control and configuration in web page, please do not convert them into markdown syntax. -->
 
 <p style="text-align:center;">
-  <img width="400" height="389" src="/img/bio_image/about_img.png" alt="Logo">
+  <img width="400" height="389" src="/img/bio_image/about_img.png" alt="my photo">
 </p>
 
 <p style="margin: 1% 5% 1% 5%">
