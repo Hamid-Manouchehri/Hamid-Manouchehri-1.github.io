@@ -76,7 +76,7 @@ Finally the equations of the system become:
   <img src="https://latex.codecogs.com/svg.image?\dot{z}_7=z_4(-z_4\frac{\partial&space;g_1[6]}{\partial&space;z_3}&plus;\frac{\partial&space;g_1[5]}{\partial&space;z_3}\frac{z_7&plus;g_1[6]z_4}{g_1[5]})&plus;g_1[5](f_2[2]-f_2[1]\frac{g_1[6]}{g_1[5]});&space;\mathbf{(8)}&space;" title="" />
 <p/>
 
-### Design and Implementation of controllers
+### Design and Implementation of controllers <br>
 
 #### Velocity Controller
 
@@ -91,10 +91,14 @@ In order to control desired parameters of the system, we need two controllers; a
 </p>
 
 <p style="text-align:center;">
-  <img src="https://latex.codecogs.com/svg.image?\dot{v}_{ss}=f_{ss}(\alpha_r)=[\frac{1}{g_1[5]}(g_1[5]f^\alpha_{22}-f^\alpha_{21}g_1[6])]_{\alpha=\alpha_r}"" />
+  <img src="https://latex.codecogs.com/svg.image?\dot{v}_{ss}=f_{ss}(\alpha_r)=[\frac{1}{g_1[5]}(g_1[5]f^\alpha_{22}-f^\alpha_21g_1[6])]_{\alpha=\alpha_r};\mathbf{(11)}" title="" />
 </p>
 
+Simulation of equation (11):
 
+<p style="text-align:center;">
+  
+</p>
 
 
 
