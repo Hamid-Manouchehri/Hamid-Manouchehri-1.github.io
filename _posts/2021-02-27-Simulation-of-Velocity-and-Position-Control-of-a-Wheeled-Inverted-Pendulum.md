@@ -52,7 +52,7 @@ And the new feedback law is:
   <img src="https://latex.codecogs.com/svg.image?\omega_2=f_2[1]&plus;g_1[5]v_1;&space;\mathbf{(6)}&space;" title="" />
 </p>
 
-Now let's feedback linearize the system. Considering, it has maximum _relative degree_, the change of coordinates is given by:
+Now let's __feedback linearize__ the system. Considering, it has maximum _relative degree_, the change of coordinates is given by:
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?z&space;=&space;T(x)=\begin{pmatrix}&space;x_3\\&space;x_7\\&space;x_4\\&space;x_5\\&space;x_1\\&space;x_2\\&space;&space;-x_5g_1[6]&plus;x_6g_1[5]\\\end{pmatrix};&space;\mathbf{(7)}" title="" />
@@ -77,9 +77,7 @@ Finally the equations of the system become:
 <p/>
 
 ### Design and Implementation of controllers <br>
-
 #### Velocity Controller
-
 In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $\theta_d$ and $\alpha_r$, and a __higher level__ controller with slow dynamics to make sure $\alpha_r$ $\in$ $A_s$:
 
 <p style="text-align:center;">
@@ -100,6 +98,53 @@ Simulation of equation (11):
   <img width="788" height="425" src="/img/sim_wheeled_inverted_pendulum/f_ss_alpha_r.png" alt="f_ss">
 </p>
 
+Now the outputs for step and stop commands:
 
+<p style="text-align:center;">
+  <img width="814" height="456" src="/img/sim_wheeled_inverted_pendulum/stop_command.png" alt="stop command">
+</p>
 
+<p style="text-align:center;">
+  <img width="780" height="420" src="/img/sim_wheeled_inverted_pendulum/step_command.png" alt="step command">
+</p>
 
+#### Position and Stabilization Control
+Here we want to design a controller to stabilize the robot in a desired coordination against the world frame. For this, it is better to deploy polar coordination for for configuration space of the robot:
+
+<p style="text-align:center;">
+  <img src="https://latex.codecogs.com/svg.image?P=[\rho,\phi,\theta,\alpha&space;]^T;\mathbf{(12)}" title="" />
+</p>
+
+<p style="text-align:center;">
+  <img src="https://latex.codecogs.com/svg.image?\dot{v}_{ss}=f(\alpha_r,\dot{\theta})=\begin{bmatrix}(f^\alpha_{22}&plus;f^{\dot{\theta}}_{22})-(f^\alpha_{21}&plus;f^{\dot{\theta}}_{21})\frac{g_1[6]}{g_1[5]}\end{bmatrix}_{\alpha=\dot{\alpha}}&space;;\mathbf{(13)}" title="" />
+</p>
+
+The simulation:
+
+<p style="text-align:center;">
+    <img width="848" height="451" src="/img/sim_wheeled_inverted_pendulum/f_ss_alpha_r_theta_dot.png" alt="f_ss_theta_dot">
+</p>
+
+Same as befor we need two types of controller, higher level and lower level controllers, for __higher level__ controller, we consider the following _potential function_:
+
+<p style="text-align:center;">
+    <img src="https://latex.codecogs.com/svg.image?V_\Sigma=\frac{1}{2(\alpha^2_m-\alpha^2_r)}&plus;\frac{k_v(v_{ss}-v_d)^2}{2};&space;\mathbf{(14)}" title="" />
+</p>
+
+We propose the following control signal:
+
+<p style="text-align:center;">
+  <img src="https://latex.codecogs.com/svg.image?\omega_1=-\frac{\partial&space;V_\Sigma&space;}{\partial&space;\theta}-k_\omega\dot{\theta};&space;\mathbf{(15)}" title="" />
+</p>
+
+Finally, by substituting $\alpha_r$ in the following equation, stability would be satisfied.
+
+<p style="text-align:center;">
+  <img src="https://latex.codecogs.com/svg.image?f_{ss}(\alpha_r,&space;\dot{\theta})=-(\frac{\partial&space;V_\Sigma&space;}{\partial&space;\rho}cos(\theta-\phi)&plus;\frac{\partial&space;V_\Sigma&space;}{\partial&space;\phi}\frac{sin(\theta-\phi)}{\rho})-k_vv;\mathbf{(16)}" title="" />  
+</p>
+
+And the __lower level__ controller is:
+
+<p style="text-align:center;">
+  <img src="https://latex.codecogs.com/svg.image?\omega_2=-k_{av}\dot{\alpha}-k_a(\alpha-\alpha_r);\mathbf{(17)}" title="" />
+</p>
