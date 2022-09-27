@@ -148,3 +148,5 @@ And the __lower level__ controller is:
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?\omega_2=-k_{av}\dot{\alpha}-k_a(\alpha-\alpha_r);\mathbf{(17)}" title="" />
 </p>
+
+To get more details, please refer to the papaer and keep in touch with me. :)
