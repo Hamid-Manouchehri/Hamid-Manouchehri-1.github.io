@@ -58,7 +58,7 @@ Now let's feedback linearize the system. Considering, it has maximum _relative d
   <img src="https://latex.codecogs.com/svg.image?z&space;=&space;T(x)=\begin{pmatrix}&space;x_3\\&space;x_7\\&space;x_4\\&space;x_5\\&space;x_1\\&space;x_2\\&space;&space;-x_5g_1[6]&plus;x_6g_1[5]\\\end{pmatrix};&space;\mathbf{(7)}" title="" />
 </p>
 
-Finally the equations of system become:
+Finally the equations of the system become:
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?\dot{z}_1=z_2,&space;\dot{z}_2=\omega_1,\dot{z}_3=z_4,\dot{z}_4=\omega_2" title="" />
@@ -72,11 +72,27 @@ Finally the equations of system become:
   <img src="https://latex.codecogs.com/svg.image?\dot{z}_6=(\frac{z_7&plus;g_1[6]z_4}{g_1[5]})sin(z_1)" title="" />
 <p/>
 
-
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?\dot{z}_7=z_4(-z_4\frac{\partial&space;g_1[6]}{\partial&space;z_3}&plus;\frac{\partial&space;g_1[5]}{\partial&space;z_3}\frac{z_7&plus;g_1[6]z_4}{g_1[5]})&plus;g_1[5](f_2[2]-f_2[1]\frac{g_1[6]}{g_1[5]});&space;\mathbf{(8)}&space;" title="" />
 <p/>
 
+### Design and Implementation of controllers
+
+#### Velocity Controller
+
+In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $\theta_d$ and $\alpha_r$, and a __higher level__ controller with slow dynamics to make sure $\alpha_r$ $\in$ $A_s$:
+
+<p style="text-align:center;">
+  <img src="https://latex.codecogs.com/svg.image?C_l:&space;\omega_1=-k_{qv}\dot{\theta}-k_q(\theta-\theta_d),&space;\omega_2=-k_{av}\dot{\alpha}-k_a(\alpha-\alpha_r);&space;\mathbf{(9)}" title="" />
+</p>
+
+<p style="text-align:center;">
+  <img src="https://latex.codecogs.com/svg.image?C_h:&space;\dot{\alpha}_r=k_rf_{ss}-k_v(\alpha^2_m-\alpha^2_r)^2(v_{ss}-v_d)\frac{f_{ss}}{\alpha_r};&space;\mathbf{(10)}" title="" />
+</p>
+
+<p style="text-align:center;">
+  <img src="https://latex.codecogs.com/svg.image?\dot{v}_{ss}=f_{ss}(\alpha_r)=[\frac{1}{g_1[5]}(g_1[5]f^\alpha_{22}-f^\alpha_{21}g_1[6])]_{\alpha=\alpha_r}"" />
+</p>
 
 
 
