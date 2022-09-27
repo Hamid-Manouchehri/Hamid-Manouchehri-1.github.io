@@ -76,11 +76,12 @@ Finally the equations of the system become:
   <img src="https://latex.codecogs.com/svg.image?\dot{z}_7=z_4(-z_4\frac{\partial&space;g_1[6]}{\partial&space;z_3}&plus;\frac{\partial&space;g_1[5]}{\partial&space;z_3}\frac{z_7&plus;g_1[6]z_4}{g_1[5]})&plus;g_1[5](f_2[2]-f_2[1]\frac{g_1[6]}{g_1[5]});&space;\mathbf{(8)}&space;" title="" />
 <p/>
 
+
 ### Design and Implementation of controllers
 
 #### Velocity Controller
 
-In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track &theta_d; and &alpha_r;, and a __higher level__ controller with slow dynamics to make sure &alpha_r; &in; &A_s;:
+In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $$\theta_d$$ and $$\alpha_r$$, and a __higher level__ controller with slow dynamics to make sure $$\alpha_r$$ $$\inT$$ $$A_s$$:
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?C_l:&space;\omega_1=-k_{qv}\dot{\theta}-k_q(\theta-\theta_d),&space;\omega_2=-k_{av}\dot{\alpha}-k_a(\alpha-\alpha_r);&space;\mathbf{(9)}" title="" />
@@ -109,6 +110,7 @@ Now the outputs for step and stop commands:
 <p style="text-align:center;">
   <img width="780" height="420" src="/img/sim_wheeled_inverted_pendulum/step_command.png" alt="step command">
 </p>
+
 
 #### Position and Stabilization Control
 
@@ -140,7 +142,7 @@ We propose the following control signal:
   <img src="https://latex.codecogs.com/svg.image?\omega_1=-\frac{\partial&space;V_\Sigma&space;}{\partial&space;\theta}-k_\omega\dot{\theta};&space;\mathbf{(15)}" title="" />
 </p>
 
-Finally, by substituting $alpha_r; in the following equation, stability would be satisfied.
+Finally, by substituting $$\alpha_r$$ in the following equation, stability would be satisfied.
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?f_{ss}(\alpha_r,&space;\dot{\theta})=-(\frac{\partial&space;V_\Sigma&space;}{\partial&space;\rho}cos(\theta-\phi)&plus;\frac{\partial&space;V_\Sigma&space;}{\partial&space;\phi}\frac{sin(\theta-\phi)}{\rho})-k_vv;\mathbf{(16)}" title="" />  
