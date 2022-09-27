@@ -34,5 +34,5 @@ In the following I will demonstrate how fast the algorithm finds the solution, i
 </p>
 
 There may be some errors in the above parameters' values, but nothing important.
-
+&#945; or &alpha;
 
