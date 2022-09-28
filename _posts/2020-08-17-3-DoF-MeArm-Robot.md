@@ -5,10 +5,9 @@ layout: post
 categories: media
 ---
 
+<p style="text-align:center;">
+    <img width="608" height="478" src="/img/MeArm/MeArm_robot.png" alt="MeArm robot">
+</p>
+
 ### Overview
 
-<!-- <p style="text-align:center;">
-  
-</p> -->
-
-When $$a \ne 0$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
