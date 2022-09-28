@@ -22,9 +22,15 @@ During `Advanced Robotics` course, as a personal desire, I proposed my [lecturer
 3. Next, writing the inverse kinematics _algorithm_ (in C programming language), [USART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter) connection (it is recommended to use standard USART library to read and write data within you code), and _gripper_ program.
 
 <p style="text-align:center;">
-    <img width="608" height="478" src="/img/MeArm/hardware_setup.png" alt="set up hardware">
+    <img width="983" height="576" src="/img/MeArm/hardware_setup.png" alt="set up hardware">
+</p>
+
+The goal of the project was deploying the robot to manipulate an object in a structured path, send the initial coordination (defined in Cartesian space in world frame at the center of base vertical joint) of the object through UART, catch the object, send the desired coordination, finally, send the command to gripper to release the object. For sending the commands, two micro switches are used; one for action, and the other for the gripper.
+
+<p style="text-align:center;">
+    <img width="815" height="616" src="/img/MeArm/Hercules.png" alt="software tool">
 </p>
 
 ### Source Code
 
-The source code is uploaded to [MeArm_robot](https://github.com/Hamid-Manouchehri/MeArm_robot) repository on GitHub. Also you can watch the related [video](https://www.linkedin.com/posts/hamid-manouchehri_robotic-mearm-opensource-activity-6857671328384737280-deZS?utm_source=share&utm_medium=member_desktop) post on my LinkedIn. Email me if you have question.
+The source code is uploaded to [MeArm_robot](https://github.com/Hamid-Manouchehri/MeArm_robot) repository on GitHub. Also the related [video](https://www.linkedin.com/posts/hamid-manouchehri_robotic-mearm-opensource-activity-6857671328384737280-deZS?utm_source=share&utm_medium=member_desktop) post on my LinkedIn illustrates the procedure more. Email me if you have question.
