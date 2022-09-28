@@ -1,5 +1,5 @@
 ---
-title:  "Simulation; Nonlinear Control of an Inverted Pendulum by Partial Feedback Linearization"
+title:  "Nonlinear Control of an Inverted Pendulum by Partial Feedback Linearization"
 mathjax: true
 layout: post
 categories: media
