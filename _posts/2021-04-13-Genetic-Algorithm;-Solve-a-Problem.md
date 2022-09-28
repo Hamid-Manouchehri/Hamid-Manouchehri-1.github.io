@@ -19,7 +19,7 @@ Suppose there are some sports competitions held in the university for students. 
 
 ### Solution
 
-In the following, I will give you the general concept based on my source code on [GitHub](https://github.com/Hamid-Manouchehri/genetic_algorithm_case_study). Everything is clear, just follow the source code beside what I explain in here. :) <br>
+In the following, I will provide you the general concepts based on my source code on GitHub, refer to the last _header_. Everything is clear, just follow the source code beside what I explain in here. :) <br>
 1. The __adjacancy graph__ represents the model of the problem, _discrete binary representation_. The first row of `input.txt` file is _m_ and the rest of the lines define whether there is a vertex between _i_ and _j_ edges or not. The `input.txt` would be passed into `load_input` function to extract __adjacancy graph__ and _m_. <br>
 2. After that, the `generation` function generates _chromosomes_ ramdomly, our goal is to find the most suitable chromosome (solution). <br>
 3. Next we have to assign an _objective value_ via `obj_func` function. <br>
@@ -34,4 +34,10 @@ In the following I will demonstrate how fast the algorithm finds the solution, i
 </p>
 
 There may be some errors in the above parameters' values, but nothing important.
+
+
+### Source Code
+
+The source code is uploaded to [genetic_algorithm_case_study](https://github.com/Hamid-Manouchehri/genetic_algorithm_case_study) repository on GitHub. Email me if you have question.
+
 
