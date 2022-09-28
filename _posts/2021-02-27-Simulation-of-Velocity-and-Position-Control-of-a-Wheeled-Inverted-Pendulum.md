@@ -81,7 +81,7 @@ Finally the equations of the system become:
 #### Velocity Controller
 
 <p>
-  In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $$\theta_d$$ and $$\alpha_r$$, and a __higher level__ controller with slow dynamics to make sure &alpha;<sub>r</sub> $$\in$$ A<sub>s</sub>:
+  In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $$\theta_d$$ and $$\alpha_r$$, and a __higher level__ controller with slow dynamics to make sure &alpha;<sub>r</sub> &in; A<sub>s</sub>:
 </p>
 
 <p style="text-align:center;">
@@ -142,7 +142,7 @@ We propose the following control signal:
   <img src="https://latex.codecogs.com/svg.image?\omega_1=-\frac{\partial&space;V_\Sigma&space;}{\partial&space;\theta}-k_\omega\dot{\theta};&space;\mathbf{(15)}" title="" />
 </p>
 
-Finally, by substituting $$\alpha_r$$ in the following equation, stability would be satisfied.
+Finally, by substituting &alpha_r; &alpha;_r &alpha;<sub>r</sub> in the following equation, stability would be satisfied.
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?f_{ss}(\alpha_r,&space;\dot{\theta})=-(\frac{\partial&space;V_\Sigma&space;}{\partial&space;\rho}cos(\theta-\phi)&plus;\frac{\partial&space;V_\Sigma&space;}{\partial&space;\phi}\frac{sin(\theta-\phi)}{\rho})-k_vv;\mathbf{(16)}" title="" />  
