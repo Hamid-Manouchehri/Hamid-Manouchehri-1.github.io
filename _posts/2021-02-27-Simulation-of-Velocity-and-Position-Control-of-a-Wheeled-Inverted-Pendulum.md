@@ -81,7 +81,7 @@ Finally the equations of the system become:
 #### Velocity Controller
 
 <p>
-  In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $$\theta_d$$ and $$\alpha_r$$, and a __higher level__ controller with slow dynamics to make sure &\alpha_r; &\in; &A_s:
+  In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $$\theta_d$$ and $$\alpha_r$$, and a __higher level__ controller with slow dynamics to make sure &\alpha;<sub>r</sub> &\in; A<sub>s</sub>:
 </p>
 
 <p style="text-align:center;">
