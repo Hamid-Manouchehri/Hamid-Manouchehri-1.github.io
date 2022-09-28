@@ -16,7 +16,9 @@ categories: media
 
 ### Project Definition
 
-During `Advanced Robotics` course, as a personal desire, I proposed my [lecturer](https://profile.ut.ac.ir/en/~mudehghani) to implement __Inverse Kinematics__ via _MeArm_. At first, I had to derive __Forward Kinematics__ of the robot, for this it is necessary to measure geometry and weight
+During `Advanced Robotics` course, as a personal desire, I proposed my [lecturer](https://profile.ut.ac.ir/en/~mudehghani) to implement __Inverse Kinematics__ via _MeArm_. 
+1. At first, I had to derive __Forward Kinematics__ of the robot, for this, it is necessary to know (/measure) geometry parameters of _links_, _joints_ and frames, __Denavit-Hartenberg parameters__ ([DH](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters)). 
+2. 
 
 ### Source Code
 
