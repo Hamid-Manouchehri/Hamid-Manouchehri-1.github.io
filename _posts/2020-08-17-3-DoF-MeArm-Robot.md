@@ -25,11 +25,16 @@ During `Advanced Robotics` course, as a personal desire, I proposed my [lecturer
     <img width="983" height="576" src="/img/MeArm/hardware_setup.png" alt="set up hardware">
 </p>
 
-The goal of the project was deploying the robot to manipulate an object in a structured path, send the initial coordination (defined in Cartesian space in world frame at the center of base vertical joint) of the object through UART, catch the object, send the desired coordination, finally, send the command to gripper to release the object. For sending the commands, two micro switches are used; one for action, and the other for the gripper.
+The goal of the project was deploying the robot to manipulate an object in a structured path, send the initial coordination (defined in Cartesian space in world frame at the center of base vertical joint (x, y, z)) of the end-effector through UART, catch the object, send the desired coordination, finally, send the command to the gripper to release the object. For sending the commands, two micro switches are used; one for action, and the other for the gripper.
 
 <p style="text-align:center;">
     <img width="815" height="616" src="/img/MeArm/Hercules.png" alt="software tool">
 </p>
+
+### Challenges
+
+SG90 servo motors do not have any feedback for position and velocity of motors, of course there is an internal closed-loop control system via a potentiometer circuit to dictate the exact position command, so it is not capable for applying position and velocity controllers. <br>
+For days I was investigating to find _torque_ of the motors to calculate __Inverse Dynamics__ for some detection tasks like; applying proper torque to grasp the unknown objects. I also did cumbersome trial and error to find __Torque Constants__ of SG90 servos to calculate the torque via current observer, I used a 16-Bit [ADS1115](https://www.adafruit.com/product/1085) ADS module to observe the consumption current for this purpose, while I didn't notice that, it is a 15 &euro; hobby servo motor not a MX-series of _Dynamixel_ servo motors. _SG90_ servos are really inaccurate with a huge _backlash_ with at most 1.8 kg.cm output torque.
 
 ### Source Code
 
