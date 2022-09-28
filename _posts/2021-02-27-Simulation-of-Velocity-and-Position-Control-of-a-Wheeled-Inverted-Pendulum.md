@@ -14,11 +14,12 @@ within the course of __Nonlinear Control__, I was intended to simulate the resul
 As we know that __Feedback Linearization__ is a technique for transforming the main system to a simpler form, in this case, first we derive the dynamic equations of the system, next we _partially feedback linearize_ the system, Finally apply the controller.
 
 ### Dynamic Model
+
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?M&space;(&space;q&space;)&space;\ddot{q}&space;&plus;&space;V&space;(&space;q&space;,&space;q&space;_&space;)&space;=&space;E&space;(&space;q&space;)\tau&space;&space;&plus;&space;A^T&space;(&space;q&space;)&space;\lambda;&space;\mathbf{(1)}" title=" dynamic equation of wheeled inverted pendulum" />  
 </p>
 
-Eliminate _Lagrange multipliers_ &lambda; with &S^T:
+Eliminate _Lagrange multipliers_ &lambda; with S<sup>T</sup>:
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?(&space;S^T&space;MS&space;)\dot{\nu}&space;&plus;&space;S^T&space;(&space;M&space;\dot{S}\nu&space;&plus;&space;V&space;(&space;q&space;,&space;\dot{q}))&space;=&space;S^{T}&space;E&space;(&space;q&space;)\tau&space;;&space;\mathbf{(2)}" title="Lagrange multipliers eliminated" />
@@ -81,7 +82,7 @@ Finally the equations of the system become:
 #### Velocity Controller
 
 <p>
-  In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $$\theta_d$$ and $$\alpha_r$$, and a __higher level__ controller with slow dynamics to make sure &alpha;<sub>r</sub> &in; A<sub>s</sub>:
+  In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track &theta;<sub>d</sub> and &alpha;<sub>r</sub>, and a __higher level__ controller with slow dynamics to make sure &alpha;<sub>r</sub> &in; A<sub>s</sub>:
 </p>
 
 <p style="text-align:center;">
@@ -114,6 +115,7 @@ Now the outputs for step and stop commands:
 
 
 #### Position and Stabilization Control
+
 Here we want to design a controller to stabilize the robot in a desired coordination against the world frame. For this, it is better to deploy polar coordination for for configuration space of the robot:
 
 <p style="text-align:center;">
@@ -142,7 +144,7 @@ We propose the following control signal:
   <img src="https://latex.codecogs.com/svg.image?\omega_1=-\frac{\partial&space;V_\Sigma&space;}{\partial&space;\theta}-k_\omega\dot{\theta};&space;\mathbf{(15)}" title="" />
 </p>
 
-Finally, by substituting &alpha_r; &alpha;_r &alpha;<sub>r</sub> in the following equation, stability would be satisfied.
+Finally, by substituting &alpha;<sub>r</sub> in the following equation, stability would be satisfied.
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?f_{ss}(\alpha_r,&space;\dot{\theta})=-(\frac{\partial&space;V_\Sigma&space;}{\partial&space;\rho}cos(\theta-\phi)&plus;\frac{\partial&space;V_\Sigma&space;}{\partial&space;\phi}\frac{sin(\theta-\phi)}{\rho})-k_vv;\mathbf{(16)}" title="" />  
