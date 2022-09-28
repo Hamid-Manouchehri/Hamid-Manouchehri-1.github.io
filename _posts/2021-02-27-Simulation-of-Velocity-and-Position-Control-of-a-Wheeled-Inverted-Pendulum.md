@@ -19,7 +19,7 @@ As we know that __Feedback Linearization__ is a technique for transforming the m
   <img src="https://latex.codecogs.com/svg.image?M&space;(&space;q&space;)&space;\ddot{q}&space;&plus;&space;V&space;(&space;q&space;,&space;q&space;_&space;)&space;=&space;E&space;(&space;q&space;)\tau&space;&space;&plus;&space;A^T&space;(&space;q&space;)&space;\lambda;&space;\mathbf{(1)}" title=" dynamic equation of wheeled inverted pendulum" />  
 </p>
 
-Eliminate _Lagrange multipliers_ &lambda; with S<sup>T</sup>:
+Eliminate _Lagrange multipliers_ $$\lambda$$ with $$S^T$$:
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?(&space;S^T&space;MS&space;)\dot{\nu}&space;&plus;&space;S^T&space;(&space;M&space;\dot{S}\nu&space;&plus;&space;V&space;(&space;q&space;,&space;\dot{q}))&space;=&space;S^{T}&space;E&space;(&space;q&space;)\tau&space;;&space;\mathbf{(2)}" title="Lagrange multipliers eliminated" />
@@ -82,8 +82,7 @@ Finally the equations of the system become:
 
 #### Velocity Controller
 
-In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track &theta;<sub>d</sub> and &alpha;<sub>r</sub>, and a __higher level__ controller with slow dynamics to make sure $$ \lambda_r $$ $$\lambda_r$$ $$\lambda_r;$$
-$$lambda$$ $$\lambda_r$$ &alpha;<sub>r</sub> &isin; A<sub>s</sub>:
+In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track $$\theta_d$$ and $$\alpha_r$$, and a __higher level__ controller with slow dynamics to make sure $$\lambda_r \in A_s$$:
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?C_l:&space;\omega_1=-k_{qv}\dot{\theta}-k_q(\theta-\theta_d),&space;\omega_2=-k_{av}\dot{\alpha}-k_a(\alpha-\alpha_r);&space;\mathbf{(9)}" title="" />
@@ -144,7 +143,7 @@ We propose the following control signal:
   <img src="https://latex.codecogs.com/svg.image?\omega_1=-\frac{\partial&space;V_\Sigma&space;}{\partial&space;\theta}-k_\omega\dot{\theta};&space;\mathbf{(15)}" title="" />
 </p>
 
-Finally, by substituting &alpha;<sub>r</sub> in the following equation, stability would be satisfied.
+Finally, by substituting $$\alpha_r$$ in the following equation, stability would be satisfied.
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?f_{ss}(\alpha_r,&space;\dot{\theta})=-(\frac{\partial&space;V_\Sigma&space;}{\partial&space;\rho}cos(\theta-\phi)&plus;\frac{\partial&space;V_\Sigma&space;}{\partial&space;\phi}\frac{sin(\theta-\phi)}{\rho})-k_vv;\mathbf{(16)}" title="" />  
