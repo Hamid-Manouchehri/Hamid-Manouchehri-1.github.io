@@ -67,20 +67,20 @@ Finally the equations of the system become:
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?\dot{z}_5=(\frac{z_7&plus;g_1[6]z_4}{g_1[5]})cos(z_1)" title="" />
-<p/>
+</p>
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?\dot{z}_6=(\frac{z_7&plus;g_1[6]z_4}{g_1[5]})sin(z_1)" title="" />
-<p/>
+</p>
 
 <p style="text-align:center;">
   <img src="https://latex.codecogs.com/svg.image?\dot{z}_7=z_4(-z_4\frac{\partial&space;g_1[6]}{\partial&space;z_3}&plus;\frac{\partial&space;g_1[5]}{\partial&space;z_3}\frac{z_7&plus;g_1[6]z_4}{g_1[5]})&plus;g_1[5](f_2[2]-f_2[1]\frac{g_1[6]}{g_1[5]});&space;\mathbf{(8)}&space;" title="" />
-<p/>
+</p>
 
 
-### Design and Implementation of Controllers <br>
+### Design and Implementation of Controllers
 
-#### Velocity Controller <br>
+#### Velocity Controller
 
 In order to control desired parameters of the system, we need two controllers; a __lower level__ controller with fast dynamics to track &theta;<sub>d</sub> and &alpha;<sub>r</sub>, and a __higher level__ controller with slow dynamics to make sure &alpha;<sub>r</sub> &in; A<sub>s</sub>:
 
