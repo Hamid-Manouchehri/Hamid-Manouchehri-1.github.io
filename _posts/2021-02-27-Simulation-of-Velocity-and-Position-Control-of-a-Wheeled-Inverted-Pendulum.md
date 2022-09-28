@@ -1,6 +1,6 @@
 ---
 title:  "Nonlinear Control of an Inverted Pendulum by Partial Feedback Linearization"
-mathjax: true
+mathjax: false
 layout: post
 categories: media
 ---
