@@ -47,11 +47,8 @@ It is important to say __$$\mu$$__ is determined according to the material used 
    <video width="523" height="302" poster="/img/pip_inspection_robot/simulation_poster.png" controls>
       <source src="/videos/pip_inspection_robot/pip_inspection_simulation.mp4" type="video/mp4">
       Your browser does not support the video tag.
-      <track
-          label="English"
-          kind="subtitles"
-          srclang="en"
-          src="captions/vtt/sintel-en.vtt"
-      default />
+      <figcaption>
+          asdkfljalsdkjf
+      </figcaption>
    </video>
 </p>
