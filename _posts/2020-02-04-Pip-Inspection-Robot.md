@@ -27,7 +27,7 @@ As I mentioned above, firstly I designed the CAD model of the chassé with all d
     <img width="708" height="460" src="/img/pip_inspection_robot/power_transmission.png" alt="power transmission">
 </p>
 
-To calculate the required normal force for the tyres to traverse the vertical pip without slipping, I used static [friction](https://en.wikipedia.org/wiki/Friction) equation. Assume the whoel robot weighs 5 $$kg$$:
+To calculate the required normal force for the tyres to traverse the vertical pip without slipping, I used static [friction](https://en.wikipedia.org/wiki/Friction) equation. Assume the whole robot weighs 5 $$kg$$, and the coefficient of friction ($$\mu$$) is 0.3:
 
 <p style="text-align:center;">
     <img width="424" height="357" src="/img/pip_inspection_robot/normal_forces.png" alt="normal forces">
@@ -40,10 +40,12 @@ To calculate the required normal force for the tyres to traverse the vertical pi
 <p style="text-align:center;">
     <img src="https://latex.codecogs.com/svg.image?N_{caster}=166.7&space;(N)" title="" />
 </p>
+
+It is important to say __$$\mu$$__ is determined according to the material used for tyres, and the pip. In the following simulation, you can see that robot can goes up the pip, there is an important point in here, that the motion of the robot is produce through a linear force applied to the _COM_ of the robot, rather direct torque to the wheels.
     
-<!-- <p style="text-align:center;">
-   <video width="320" height="240" poster="/img/project_img.png" controls>
-      <source src="/videos/DOFs.mp4" type="video/mp4">
+<p style="text-align:center;">
+   <video width="523" height="302" poster="/img/pip_inspection_robot/simulation_poster.png" controls>
+      <source src="/videos/pip_inspection_simulation.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video>
-</p> -->
+</p>
