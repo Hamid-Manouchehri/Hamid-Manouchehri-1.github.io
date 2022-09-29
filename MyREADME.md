@@ -16,5 +16,5 @@
 10. The `Preview` tab does not work properly for some modifications occasionally, so it's better to check the results in the webpages.
 11. __Important Note__: When there something wrong with the code, rendering, style or anything else, remember that there is nothing wrong with the servic, parser, or etc. It is, in _99.9%_ of occurrences, a human mistake, just check your code again, _double check_, triple check, and if you can not find it, get help from others, ask someone to take a look at your code. __It is sometimes hard to see the most obvious faults as point of your view__.
 12. To enter _Greek letters_ within a sentence, you have two options:
-      1. Insert in _Markdown_ syntax: `$$\greek_letter_name$$`, it is true for other mathematic expressions, e.g. `$$A^T_{\alpha}$$`
+      1. Insert in _Markdown_ syntax: `$$\greek_letter_name$$`, it is true for other mathematic expressions, e.g. `$$A^T_{\alpha}$$`: $$A^T_{\alpha}$$
       2. Insert in _HTML_ syntax: `&greek_letter_name;`
