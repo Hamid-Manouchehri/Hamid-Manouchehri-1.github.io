@@ -41,6 +41,12 @@ To calculate the required normal force for the tyres to traverse the vertical pi
     <img src="https://latex.codecogs.com/svg.image?N_{caster}=166.7&space;(N)" title="" />
 </p>
 
+Considering the amount of the required force, an [On-off](https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control) force controller expand or retract the _scissor jack_. The mounted [load cell](https://en.wikipedia.org/wiki/Load_cell) on the caster wheel measures the force.
+
+<p style="text-align:center;">
+    <img width="937" height="374" src="/img/pip_inspection_robot/controller_diagram.png" alt="controller diagram">
+</p>
+
 It is important to say __$$\mu$$__ is determined according to the material used for tyres, and the pip. In the following simulation, you can see that robot can goes up the pip, there is an important point in here, that the motion of the robot is produce through a linear force applied to the _COM_ of the robot, rather direct torque to the wheels.
     
 <p style="text-align:center;">
