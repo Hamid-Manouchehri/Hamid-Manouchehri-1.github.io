@@ -27,6 +27,12 @@ As I mentioned above, firstly I designed the CAD model of the chassé with all d
     <img width="708" height="460" src="/img/pip_inspection_robot/power_transmission.png" alt="power transmission">
 </p>
 
+To calculate the required normal force for the tyres to traverse the vertical pip without slipping, I used static [friction](https://en.wikipedia.org/wiki/Friction) equation. Assume the whoel robot weighs 5 $$kg$$:
+
+<p style="text-align:center;">
+    <img width="424" height="357" src="/img/pip_inspection_robot/normal_forces.png" alt="normal forces">
+</p>
+
 <!-- <p style="text-align:center;">
    <video width="320" height="240" poster="/img/project_img.png" controls>
       <source src="/videos/DOFs.mp4" type="video/mp4">
