@@ -54,7 +54,7 @@ It is important to say __$$\mu$$__ is determined according to the material used 
       <source src="/videos/pip_inspection_robot/pip_inspection_simulation.mp4" type="video/mp4">
       Your browser does not support the video tag.
       <p style="text-align:center;">
-        <b> Video. 1, Simulation </b>
+        <b> <i> Video. 1, Simulation </i> </b>
       </p>
    </video>
 </p>
