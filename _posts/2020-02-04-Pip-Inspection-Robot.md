@@ -11,15 +11,17 @@ categories: media
 
 ### Overview
 
-During the course of `Mechatronics 1`, our [lecturer](https://profile.ut.ac.ir/en/~hrhadi/courses) asked us to design and implement a mechanism for a __pip inspection mobile robot__ to make it able to traverse a vertical path inside a pip of certain diameter, between 4.2" and 5". For that purpose I chose [__scissors mechanism__](https://en.wikipedia.org/wiki/Scissors_mechanism), equiped with a wheel, the original _CAD model_ was taken from [grabcad](https://grabcad.com/library). It will be mounted on the top of a four wheel mobile robot (the total structure was designed from the scratch in Solidworks) and actuates (expands) whenever the robot wants to go through a vertical path. The mechanism would generate proper friction for wheels to prevent slipping. The primary purpose of choosing this mechanism is _simplicity_, besides _efficiency_. Robot is equiped with 4 DC (per each wheel) and 1 servo (for scissors mechanism) motors, there are also two springs of cylindrical shape in the front and rear of the chasse' as passive DoFs. The bottom of the chasse' consists of two separate plates to make the wheels in both side have complete contact to the curved pip.
+During the course of `Mechatronics 1`, our [lecturer](https://profile.ut.ac.ir/en/~hrhadi/courses) asked us to design and implement a mechanism for a __pip inspection mobile robot__ to make it able to traverse a vertical path inside a pip of certain diameter, between 4.2" and 5". For that purpose I chose [__scissors mechanism__](https://en.wikipedia.org/wiki/Scissors_mechanism), equiped with a wheel, the original _CAD model_ was taken from [grabcad](https://grabcad.com/library). It will be mounted on the top of a four wheel mobile robot (the total structure was designed from the scratch in Solidworks) and actuates (expands) whenever the robot wants to go through a vertical path. The mechanism would generate proper friction for wheels to prevent slipping. The primary purpose of choosing this mechanism is _simplicity_, besides _efficiency_. Robot is equiped with 4 DC (per each wheel) and 1 servo (for scissors mechanism) motors, there are also two springs of cylindrical shape in the front and rear of the chassé as passive DoFs. The bottom of the chassé consists of two separate plates to make the wheels in both side have complete contact to the curved pip.
 
 <p style="text-align:center;">
     <img width="1310" height="383" src="/img/pip_inspection_robot/detailed_views.png" alt="detailed view">
 </p>
 
+To calculate desired normal force for travesing the vertical pip without slipping, I used the static friction force equation. Assuming the whole robot weighs 5 kg:
+
 ### Project Definition
 
-As I mentioned above, firstly I desinged the CAD model of the chasse' with all details, then mount the modified _scissors mechanism_ on it. The power of the servo motor is transmited via a verical _shaft_ to the _lead screw_ of the _scissors mechanism_.
+As I mentioned above, firstly I designed the CAD model of the chassé with all details, then mount the modified _scissors mechanism_ on it. The power of the servo motor is transmited via a verical _shaft_ to the _lead screw_ of the _scissors mechanism_.
 
 <p style="text-align:center;">
     <img width="708" height="460" src="/img/pip_inspection_robot/power_transmission.png" alt="power transmission">
