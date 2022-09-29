@@ -18,3 +18,4 @@
 12. To enter _Greek letters_ within a sentence, you have two options:
       1. Insert in _Markdown_ syntax: `$$\greek_letter_name$$`, it is true for other mathematic expressions, e.g. `$$A^T_{\alpha}$$`: $$A^T_{\alpha}$$
       2. Insert in _HTML_ syntax: `&greek_letter_name;`
+13. In _HTML_ (for Markdown too) letters between `` (back quotes) do not render.
