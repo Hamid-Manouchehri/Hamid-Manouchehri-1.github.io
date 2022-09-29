@@ -17,6 +17,14 @@ During the course of `Mechatronics 1`, our [lecturer](https://profile.ut.ac.ir/e
     <img width="1310" height="383" src="/img/pip_inspection_robot/detailed_views.png" alt="detailed view">
 </p>
 
+### Project Definition
+
+As I mentioned above, firstly I desinged the CAD model of the chasse' with all details, then mount the modified _scissors mechanism_ on it. The power of the servo motor is transmited via a verical _shaft_ to the _lead screw_ of the _scissors mechanism_.
+
+<p style="text-align:center;">
+    <img width="708" height="460" src="/img/pip_inspection_robot/power_transmission.png" alt="power transmission">
+</p>
+
 <!-- <p style="text-align:center;">
    <video width="320" height="240" poster="/img/project_img.png" controls>
       <source src="/videos/DOFs.mp4" type="video/mp4">
