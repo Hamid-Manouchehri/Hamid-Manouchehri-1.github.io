@@ -58,7 +58,7 @@ To avoid the _mercury_, splashed out of the tube, in abrupt mistakes, we designe
 ### Video
 
 <p style="text-align:center;">
-   <video width="523" height="302" poster="/img/pneumatic_table/pneumatic_table_poster.png" controls>
+   <video width="819" height="509" poster="/img/pneumatic_table/pneumatic_table_poster.png" controls>
       <source src="/videos/pneumatic_table/penumatic_table_video.mp4" type="video/mp4">
       Your browser does not support the video tag.
       <p style="text-align:center;">
