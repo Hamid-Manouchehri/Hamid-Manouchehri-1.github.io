@@ -27,12 +27,14 @@ According to _Fig. 1_:
 9. Main _Air Distribution Valve_, connects to the compressor
 10. _T Shape Hose Tube Connector_
 11. _Pneumatic Shut-off Valve_
-12. _Differential Pressure Transmitter_
+12. _Differential Pressure Transmitter_ (DPL)
 
-In addition to the _Differential Pressure Transmitter_, we had [mercury pressure gauge](https://en.wikipedia.org/wiki/Mercury_pressure_gauge) and _piezoresistive transducer_ ([MPX5100DP](https://www.nxp.com/part/MPX5100DP#/)) to measure different types of pressures, including _absolute pressure_, _gauge pressure_, and _differential pressure_. For _MXP5100DP_, we designed our _PCB_ based on its datasheet in the laboratory.
+In addition to the _Differential Pressure Transmitter_, we had [mercury pressure gauge](https://en.wikipedia.org/wiki/Mercury_pressure_gauge) and _piezoresistive transducer_ ([MPX5100DP](https://www.nxp.com/part/MPX5100DP#/)) to measure different types of pressures, including _absolute pressure_ (relative to a perfect reference _vacuum_), _gauge pressure_ (relative to _ambient atmospheric_ pressure), and _differential pressure_. For _MXP5100DP_, we designed our _PCB_ based on its datasheet in the laboratory. The _DPL_ is used for measurement of _differential pressure_, MXP5100DP for measurement of _differential pressure_ and _absolute pressure_, and _mercurry gauge_ for measurement of _gauge pressure _ and _absolute pressure_ if one side of tube is sealed.
 
 <p style="text-align:center;">
     <img width="808" height="702" src="/img/pneumatic_table/pressure_gauge.png" alt="MPX5100DP and mercurry pressure gauge">
 </p>
+
+
 
 
