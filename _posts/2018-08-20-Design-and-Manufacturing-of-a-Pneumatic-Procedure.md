@@ -6,7 +6,7 @@ categories: media
 ---
 
 <p style="text-align:center;">
-    <img width="837" height="739" src="/img/pneumatic_table/pneumatic_table_whole_setup.png" alt="laboratory prenumatic table">
+    <img width="839" height="741" src="/img/pneumatic_table/pneumatic_table_whole_setup.png" alt="laboratory prenumatic table">
 </p>
 
 ### Overview
