@@ -49,9 +49,21 @@ The table is devided into two parts; the below part of the table is for _pneumat
 5. __differential pressure__ of _R1_ and _R2_ via _manometer_
 6. __differential pressure__ of _R1_ and _R2_ via _DP-cell_ and _manometer_
 
-
 <p style="text-align:center;">
     <img width="731" height="321" src="/img/pneumatic_table/activation_table.png" alt="activation table">
 </p>
 
+To avoid the _mercury_, splashed out of the tube, in abrupt mistakes, we designed a volume along the tube of _manometer_ that is capable of collecting the _mercury_ when it overflows.
+
+### Video
+
+<p style="text-align:center;">
+   <video width="523" height="302" poster="/img/pneumatic_table/pneumatic_table_poster.png" controls>
+      <source src="/videos/pneumatic_table/penumatic_table_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      <p style="text-align:center;">
+        <b> <i> Video. 1 </i> </b>
+      </p>
+   </video>
+</p>
 
