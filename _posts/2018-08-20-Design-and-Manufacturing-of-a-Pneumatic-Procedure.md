@@ -18,7 +18,7 @@ My _B.Sc._ thesis was design and manufacturing of a [__pneumatic__](https://en.w
 According to _Fig. 1_:
 1. Panel for activation of the _test scenarios_
 2. _2 Position 5 Way Soleniod Valve_, directional control valve
-3. _Two Finger Double Action Pneumatic Gripper_, parallel gripping type
+3. _Two Finger Double Action Pneumatic Gripper_, parallel gripping type, actuates via _#5_
 4. _Magnetic Linear Slide (Actuator)_
 5. _3 Position 5 Way Flow Control Valve_, hand lever operated
 6. _Pneumatic Cylinder_
@@ -26,3 +26,8 @@ According to _Fig. 1_:
 8. _Pneumatic Cylinder_, equipped with magnetic proximity sensor
 9. Main _Air Distribution Valve_, connects to the compressor
 10. _T Shape Hose Tube Connector_
+11. _Pneumatic Shut-off Valve_
+12. _Differential Pressure Transmitter_
+
+In addition to the _Differential Pressure Transmitter_, we had [mercury pressure gauge](https://en.wikipedia.org/wiki/Mercury_pressure_gauge) and _piezoresistive transducer_ ([MPX5100DP](https://www.nxp.com/part/MPX5100DP#/)) to measure different types of pressures, including _absolute pressure_, _gauge pressure_, and _differential pressure_. For _MXP5100DP_, we designed our _PCB_ based on its datasheet in the laboratory.
+
