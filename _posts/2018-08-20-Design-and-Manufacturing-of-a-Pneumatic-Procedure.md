@@ -41,6 +41,17 @@ In addition to the _Differential Pressure Transmitter_, we had [mercury pressure
 
 ### Project Definition
 
+The table is devided into two parts; the below part of the table is for _pneumatic actuators_ and the upper part of it is for _pneumatic pressure measurement_ equipments. 6 scenarios are defined for _pneumatic pressure measurement_:
+1. __gauge pressure__ of _regulator gauge #1_ (_R1_) via _DP-cell_
+2. __gauge pressure__ of _R1_ via _manometer_
+3. __gauge pressure__ of _R1_ via _DP-cell_ and _manometer_
+4. __differential pressure__ of _R1_ and _R2_ via _DP-cell_
+5. __differential pressure__ of _R1_ and _R2_ via _manometer_
+6. __differential pressure__ of _R1_ and _R2_ via _DP-cell_ and _manometer_
 
+
+<p style="text-align:center;">
+    <img width="731" height="321" src="/img/pneumatic_table/activation_table.png" alt="activation table">
+</p>
 
 
