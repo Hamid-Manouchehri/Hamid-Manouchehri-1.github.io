@@ -6,12 +6,16 @@ categories: media
 ---
 
 <p style="text-align:center;">
-    <img width="834" height="744" src="/img/pneumatic_table/pneumatic_table_whole_setup.png" alt="laboratory prenumatic table">
+    <img width="837" height="739" src="/img/pneumatic_table/pneumatic_table_whole_setup.png" alt="laboratory prenumatic table">
 </p>
 
 ### Overview
 
 My _B.Sc._ thesis was design and manufacturing of a [__pneumatic__](https://en.wikipedia.org/wiki/Pneumatics) table for illustrating some concepts of pneumatic applications for __instrumentation laboratory__ with my teammate, _Eng. Yadollah Alinaghi Naini_ under supervision of Dr. [Mohsen Shafieirad](https://faculty.kashanu.ac.ir/mshafieirad/en). The project was defined in a way to illustrate different structures and sensors for measurement of air pressure and how pneumatic (/electro-pneumatic) actuators work through different _test scenarios_. Firstly, we _desinged and simulated_ the scanarios by [FluidSIM](https://www.festo.com/in/en/e/technical-education/digital-learning/virtual-simulation-and-modelling-id_31275/) software. Then draw a _schematic_ (/map) for placement of pneumatic facilities. After that, we did _actuator sizing_ to provide suitable pneumatic equipments for the scenarios.
+
+<p style="text-align:center;">
+    <img width="782" height="595" src="/img/pneumatic_table/pneumatic_schematic.png" alt="laboratory prenumatic table">
+</p>
 
 ### Familiarity with Equipments
 
@@ -27,13 +31,15 @@ According to _Fig. 1_:
 9. Main _Air Distribution Valve_, connects to the compressor
 10. _T Shape Hose Tube Connector_
 11. _Pneumatic Shut-off Valve_
-12. _Differential Pressure Transmitter_ (DPL)
+12. _Differential Pressure Transmitter_ (DPL/DP-cell)
 
-In addition to the _Differential Pressure Transmitter_, we had [mercury pressure gauge](https://en.wikipedia.org/wiki/Mercury_pressure_gauge) and _piezoresistive transducer_ ([MPX5100DP](https://www.nxp.com/part/MPX5100DP#/)) to measure different types of pressures, including _absolute pressure_ (relative to a perfect reference _vacuum_), _gauge pressure_ (relative to _ambient atmospheric_ pressure), and _differential pressure_. For _MXP5100DP_, we designed our _PCB_ based on its datasheet in the laboratory. The _DPL_ is used for measurement of _differential pressure_, MXP5100DP for measurement of _differential pressure_ and _absolute pressure_, and _mercurry gauge_ for measurement of _gauge pressure _ and _absolute pressure_ if one side of tube is sealed.
+In addition to the _Differential Pressure Transmitter_, we had [mercury pressure gauge (manometer)](https://en.wikipedia.org/wiki/Mercury_pressure_gauge) and _piezoresistive transducer_ ([MPX5100DP](https://www.nxp.com/part/MPX5100DP#/)) to measure different types of pressures, including _absolute pressure_ (relative to a perfect reference _vacuum_), _gauge pressure_ (relative to _ambient atmospheric_ pressure), and _differential pressure_. For _MXP5100DP_, we designed our _PCB_ based on its datasheet in the laboratory. The _DPL_ is used for measurement of _differential pressure_, MXP5100DP for measurement of _differential pressure_ and _absolute pressure_, and _mercurry gauge_ for measurement of _gauge pressure _ and _absolute pressure_ if one side of tube is sealed.
 
 <p style="text-align:center;">
     <img width="808" height="702" src="/img/pneumatic_table/pressure_gauge.png" alt="MPX5100DP and mercurry pressure gauge">
 </p>
+
+### Project Definition
 
 
 
