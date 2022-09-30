@@ -1,12 +1,12 @@
 ---
-title:  "Design and Manufacturing of a Pneumatic Procedure"
+title:  "Design and Manufacturing of a Pneumatic Procedure; Bachelor Project"
 mathjax: true
 layout: post
 categories: media
 ---
 
 <p style="text-align:center;">
-    <img width="442" height="359" src="/img/pip_inspection_robot/pip_inspection_robot.png" alt="Pip-Inspection robot">
+    <img width="834" height="744" src="/img/pneumatic_table/pneumatic_table_whole_setup.png" alt="laboratory prenumatic table">
 </p>
 
 ### Overview
