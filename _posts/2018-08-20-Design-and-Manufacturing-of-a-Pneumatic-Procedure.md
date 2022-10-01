@@ -62,7 +62,7 @@ My teammate would illustrate how to activate actuators and how to measure the _g
 
 <p style="text-align:center;">
    <video width="819" height="509" poster="/img/pneumatic_table/pneumatic_table_poster.png" controls>
-      <source src="/videos/pip_inspection_robot/pip_inspection_simulation.mp4" type="video/mp4">
+      <source src="https://vimeo.com/manage/videos/755876282" type="video/mp4">
       Your browser does not support the video tag.
       <p style="text-align:center;">
         <b> <i> Video. 1 </i> </b>
