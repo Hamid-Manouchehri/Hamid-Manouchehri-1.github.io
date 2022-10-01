@@ -60,6 +60,19 @@ To avoid the _mercury_, splashed out of the tube, in abrupt mistakes, we designe
 
 My teammate would illustrate how to activate actuators and how to measure the _gauge pressure_ via _DP-cell_ in [__this__](https://drive.google.com/file/d/12Muha7eOHyarVPC69BDDc-IjlFsylyXW/view?usp=sharing) video.
 
+<main class="project">
+	<section id="contact-content">
+		<img id="project-image" src="/img/pneumatic_table/pneumatic_table_poster.png">
+		<h1 id="project-title">Submerssible Sensing Fin</h1>
+		<h2 id="project-date">November 19, 2011</h2>
+
+		<iframe src="https://player.vimeo.com/video/148700339" width="500" height="375" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+
+	</section>
+
+</main>
+
 <!-- <iframe src="https://vimeo.com/755876282" width="500" height="375" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> -->
 
 <!-- <p style="text-align:center;">
