@@ -22,8 +22,8 @@ At first, I measured the geometric parameters of the components by a [calipers](
 In the following, it is a video of _exploded view_ in solidworks:
 
 <p style="text-align:center;">
-   <video width="523" height="302" poster="/img/CAD_casing_electrical/CAD_casing_poster.png" controls>
-      <source src="/videos/CAD_casing_electrical/exploded_view.avi" type="video/avi">
+   <video controls>
+      <source src="/videos/CAD_casing_electrical/exploded_view.mp4" type="video/mp4">
       Your browser does not support the video tag.
       <p style="text-align:center;">
         <b> <i> Video. 1, Exploded view </i> </b>
