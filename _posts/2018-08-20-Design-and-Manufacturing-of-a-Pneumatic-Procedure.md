@@ -58,11 +58,11 @@ To avoid the _mercury_, splashed out of the tube, in abrupt mistakes, we designe
 
 ### Video
 
-My teammate would illustrate how to activate actuators and how to measure the _gauge pressure_ via _DP-cell_.
+My teammate would illustrate how to activate actuators and how to measure the _gauge pressure_ via _DP-cell_ in [this](https://drive.google.com/file/d/12Muha7eOHyarVPC69BDDc-IjlFsylyXW/view?usp=sharing) video.
 
 <!-- <iframe src="https://vimeo.com/755876282" width="500" height="375" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> -->
 
-<p style="text-align:center;">
+<!-- <p style="text-align:center;">
    <video width="819" height="509" poster="/img/pneumatic_table/pneumatic_table_poster.png" controls>
       <source src="https://drive.google.com/file/d/12Muha7eOHyarVPC69BDDc-IjlFsylyXW/view?usp=sharing" type="video/mp4">
       Your browser does not support the video tag.
@@ -70,5 +70,5 @@ My teammate would illustrate how to activate actuators and how to measure the _g
         <b> <i> Video. 1 </i> </b>
       </p>
    </video>
-</p>
+</p> -->
 
