@@ -12,16 +12,21 @@ categories: media
 ### Project Definition
 
 There are different [steps](https://resources.pcb.cadence.com/blog/2020-the-steps-for-embedded-systems-design) to design embedded systems:
-1. _Analysis of Requirements_
-2. _Schematics_
-3. _PCB_ (Printed Circuit Board)
 4. _Prototype_
 5. _Firmware Development_
 6. _Testing and Acceptance_
 
-1. First we evaluated the available _coffee grinder_ machines in the market, and then made a comparison to what exists and what we require. Next we provided the components for our controller panel ([BOM](https://en.wikipedia.org/wiki/Bill_of_materials)). It is also necessary to say we have to direct our design to what we have in the warehouse.
-2. In this stage we have to design the arrangement of pieces of hardware of the system, including input/output preipherals, power supply, indicators, selection of a suitable MCU, and etc. Each electrical component must be drived based on its [datasheet](https://en.wikipedia.org/wiki/Datasheet). For our case the following is the schematic of control panel:
+1. __Analysis of Requirements__: First we evaluated the available _coffee grinder_ machines in the market, and then made a comparison to what exists and what we require. Next we provided the components for our controller panel ([BOM](https://en.wikipedia.org/wiki/Bill_of_materials)). It is also necessary to say we have to direct our design to what we have in the warehouse.
+2. __Schematics__: In this stage we have to design the arrangement of pieces of hardware of the system, including input/output preipherals, power supply, indicators, selection of a suitable MCU, and etc. Each electrical component must be drived based on its [datasheet](https://en.wikipedia.org/wiki/Datasheet). For our case the following is the schematic of control panel:
 
 <p style="text-align:center;">
-    <img width="608" height="478" src="/img/embedded_design/coffee_grinder_schematics.png" alt="schematic">
+    <img width="981" height="682" src="/img/embedded_design/coffee_grinder_schematic.png" alt="schematic">
 </p>
+
+3. __PCB (Printed Circuit Board)__: According to the former step, component-level view of the electronic system, now we have to design a circuit board.
+
+<p style="text-align:center;">
+    <img width="640" height="547" src="/img/embedded_design/controller_PCB.png" alt="PCB">
+</p>
+
+
