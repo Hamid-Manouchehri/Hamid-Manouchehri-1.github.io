@@ -1,5 +1,5 @@
 ---
-title:  "CAD Design and Print of an Electrical Equipment Case"
+title:  "CAD Design and 3D Print of an Electrical Equipment Case"
 mathjax: true
 layout: post
 categories: media
