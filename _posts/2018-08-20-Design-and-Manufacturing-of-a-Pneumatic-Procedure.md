@@ -60,7 +60,7 @@ To avoid the _mercury_, splashed out of the tube, in abrupt mistakes, we designe
 
 My teammate would illustrate how to activate actuators and how to measure the _gauge pressure_ via _DP-cell_.
 
-<iframe src="https://vimeo.com/manage/videos/755876282" width="500" height="375" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="https://vimeo.com/755876282" width="500" height="375" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <!-- <p style="text-align:center;">
    <video width="819" height="509" poster="/img/pneumatic_table/pneumatic_table_poster.png" controls>
