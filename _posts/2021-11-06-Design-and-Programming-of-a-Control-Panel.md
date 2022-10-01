@@ -27,7 +27,20 @@ There are different [steps](https://resources.pcb.cadence.com/blog/2020-the-step
 
 4. __Firmware Development__: This was my main task to develop a programm for two _PIC16F1829_ MCU. The MCUs are in connection via [USART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter). In this case, _PIC16F1829_ MCU did not have sufficient pins for our task and we were out of other models of PIC MCUs, so it was decided to deploy two of them. One of them were used for driving 7-segments and buzzer, the other one for touch and mechanical keys.
 
-5. __Testing and Acceptance__:
+5. __Testing and Acceptance__: After the _firmware development_ different tests must be done to validate both functionality of the _firmware_ and the _circuit_. Also some scenarios must be defined for unexpected situations which makes embedded design challenging.
+
+In the following I will show the functionality of the controller panel:
+
+<!-- <p style="text-align:center;">
+   <video width="523" height="302" poster="/img/pip_inspection_robot/simulation_poster.png" controls>
+      <source src="/videos/pip_inspection_robot/pip_inspection_simulation.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      <p style="text-align:center;">
+        <b> <i> Video. 1, Simulation </i> </b>
+      </p>
+   </video>
+</p> -->
+
 
 ### Code
 
