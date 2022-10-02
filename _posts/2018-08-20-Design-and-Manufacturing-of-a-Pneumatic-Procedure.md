@@ -60,6 +60,15 @@ To avoid the _mercury_, splashed out of the tube, in abrupt mistakes, we designe
 
 My teammate would illustrate how to activate actuators and how to measure the _gauge pressure_ via _DP-cell_:
 
-<iframe src="https://vimeo.com/755876282" width="500" height="375" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<!-- <iframe src="https://vimeo.com/755876282" width="500" height="375" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> -->
 
+<p style="text-align:center;">
+   <video width="523" height="302" poster="/img/pip_inspection_robot/simulation_poster.png" controls>
+      <source src="/videos/pneumatic_table/pneumatic_table_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      <p style="text-align:center;">
+        <b> <i> Video. 1, Simulation </i> </b>
+      </p>
+   </video>
+</p>
 
