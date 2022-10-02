@@ -10,7 +10,7 @@ categories: media
 [Embedded systems](https://en.wikipedia.org/wiki/Embedded_system) are computer systems with different peripherals to automate a task and control a procedure. _Embedded systems_ are mostly based on [microcontrollers (MCU)](https://en.wikipedia.org/wiki/Microcontroller), programmable electronic devices. In this project, a pre-designed PCB based on [PIC](https://en.wikipedia.org/wiki/PIC_microcontrollers) MCU is provided. There are two approached in embedded system design, this [link](https://www.researchgate.net/figure/Critical-levels-of-abstraction-in-the-Embedded-System-Design-Process-6_fig2_319164367). The [PCB](https://en.wikipedia.org/wiki/Printed_circuit_board) is a control panel for controlling a _coffee grinder_ machine. 
 
 <p style="text-align:center;">
-    <img width="709" height="588" src="/img/embedded_design/level_of_abstraction.png" alt="levels of abstraction">
+    <img width="709" height="588" src="/img/embedded_design/levels_of_abstraction.png" alt="levels of abstraction">
 </p>
 
 ### Project Definition
