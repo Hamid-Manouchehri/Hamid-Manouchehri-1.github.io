@@ -27,7 +27,12 @@ There are different [steps](https://resources.pcb.cadence.com/blog/2020-the-step
 
 4. __Firmware Development__: This was my main task to develop a programm for two _PIC16F1829_ MCU. The MCUs are in connection via [USART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter). In this case, _PIC16F1829_ MCU did not have sufficient pins for our task and we were out of other models of PIC MCUs, so it was decided to deploy two of them. One of them were used for driving 3 digit 7 segments and buzzer, the other one for touch, mechanical keys, and the [timers](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/core-independent-and-analog-peripherals/timer-peripheral). <br>
 The controller panel consists of 9 touchpads, a buzzer, a mechanical key, a 3 digit 7-segment LED display, and a LED indicator. It has one touchpad for turn on/off the machine (_Power_), one touchpad for starting/stopping the process (_Stop/Start_), a touchpad for changing the digits (_Next_), a touchpad for changing value of selected digit (_Up_), a touchpad for changing the mode of control, _Automatic, Manual, Timer_, (_Mode_), and four of the touchpads (_1-4_) are dedicated to [EEPROM](https://en.wikipedia.org/wiki/EEPROM) to store differet settings/configurations. <br>
-The challenging part of developing the firmware was distribution of tasks between the two _MCUs_, and having a continuouse reliable transmission. In addition to that, callibration of sensitivity of touchpad sensors was arduous.
+The challenging part of developing the firmware was distribution of tasks between the two _MCUs_, and having a continuouse reliable transmission. In addition to that, callibration of sensitivity of touchpad sensors was arduous. <br>
+In the following there are some of my [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language)-like diagrams before starting the development of the firmware for this project that could help me to have a better [top-down](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design) view for designing.
+
+<p style="text-align:center;">
+    <img width="1310" height="687" src="/img/embedded_design/UML_images.png" alt="UML">
+</p>
 
 5. __Testing and Acceptance__: After the _firmware development_ different tests must be done to validate both functionality of the _firmware_ and the _circuit_. Also some scenarios must be defined for unexpected situations which makes embedded design challenging.
 
