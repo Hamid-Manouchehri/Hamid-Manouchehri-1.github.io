@@ -26,7 +26,8 @@ There are different [steps](https://resources.pcb.cadence.com/blog/2020-the-step
 </p>
 
 4. __Firmware Development__: This was my main task to develop a programm for two _PIC16F1829_ MCU. The MCUs are in connection via [USART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter). In this case, _PIC16F1829_ MCU did not have sufficient pins for our task and we were out of other models of PIC MCUs, so it was decided to deploy two of them. One of them were used for driving 3 digit 7 segments and buzzer, the other one for touch, mechanical keys, and the [timers](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/core-independent-and-analog-peripherals/timer-peripheral). <br>
-The controller panel consists of 9 touchpads, a buzzer, a mechanical key, a 3 digit 7-segment LED display, and a LED indicator. It has one touchpad for turn on/off the machine (_Power_), one touchpad for starting/stopping the process (_Stop/Start_), a touchpad for changing the digits (_Next_), a touchpad for changing value of selected digit (_Up_), a touchpad for changing the mode of control, _Automatic, Manual, Timer_, (_Mode_), and four of the touchpads (_1-4_) are dedicated to [EEPROM](https://en.wikipedia.org/wiki/EEPROM) to store differet settings/configurations.
+The controller panel consists of 9 touchpads, a buzzer, a mechanical key, a 3 digit 7-segment LED display, and a LED indicator. It has one touchpad for turn on/off the machine (_Power_), one touchpad for starting/stopping the process (_Stop/Start_), a touchpad for changing the digits (_Next_), a touchpad for changing value of selected digit (_Up_), a touchpad for changing the mode of control, _Automatic, Manual, Timer_, (_Mode_), and four of the touchpads (_1-4_) are dedicated to [EEPROM](https://en.wikipedia.org/wiki/EEPROM) to store differet settings/configurations. <br>
+The challenging part of developing the firmware was distribution of tasks between the two _MCUs_, and having a continuouse reliable transmission. In addition to that, callibration of sensitivity of touchpad sensors was arduous.
 
 5. __Testing and Acceptance__: After the _firmware development_ different tests must be done to validate both functionality of the _firmware_ and the _circuit_. Also some scenarios must be defined for unexpected situations which makes embedded design challenging.
 
@@ -35,7 +36,7 @@ The controller panel consists of 9 touchpads, a buzzer, a mechanical key, a 3 di
 In the following I will show you the functionality of the controller panel:
 
 <p style="text-align:center;">
-   <video width="933" height="494" poster="/img/embedded_design/control_panel_poster.png" controls>
+   <video width="733" height="294" poster="/img/embedded_design/control_panel_poster.png" controls>
       <source src="/videos/embedded_design/controller_panel.mp4" type="video/mp4">
       Your browser does not support the video tag.
       <p style="text-align:center;">
