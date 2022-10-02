@@ -32,7 +32,7 @@ The controller panel consists of 9 touchpads, a buzzer, a mechanical key, a 3 di
 
 In the following I will show you the functionality of the controller panel:
 
-<!-- <p style="text-align:center;">
+<p style="text-align:center;">
    <video width="523" height="302" poster="/img/pip_inspection_robot/simulation_poster.png" controls>
       <source src="/videos/embedded_design/controller_panel.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -40,7 +40,7 @@ In the following I will show you the functionality of the controller panel:
         <b> <i> Video. 1, Test control panel </i> </b>
       </p>
    </video>
-</p> -->
+</p>
 
 
 ### Code
