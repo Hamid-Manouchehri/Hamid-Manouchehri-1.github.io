@@ -20,3 +20,4 @@
       1. Insert in _Markdown_ syntax: `$$\greek_letter_name$$`, it is true for other mathematic expressions, e.g. `$$A^T_{\alpha}$$`: $$A^T_{\alpha}$$
       2. Insert in _HTML_ syntax: `&greek_letter_name;`
 14. In _HTML_ (for Markdown too) letters between `` (back quotes) do not render.
+15. To create your `HTML` document, an easy way is to read other _HTML_ web pages, like __Wikipedia__. Just go to a specific page on _Wikipedia_, then press `CTRL + u` and navigate the _HTML_ source to be more familiar with the syntax.
