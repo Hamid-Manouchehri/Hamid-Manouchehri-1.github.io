@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: Projects, icon: robot, file: "projects.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Vita, icon: file-pdf, url: "/pdf_files/CV_v5_Hamid_Manouchehri_blog_and_link.pdf"}
+  - {title: Vita, icon: file-pdf, url: "/pdf_files/CV_V5.0.1_Hamid_Manouchehri.pdf"}
   - {title: Mail, icon: envelope, url: "mailto:hamid.manouchehri.njf@gmail.com"}
   - {title: GitHub, icon: github, url: "https://github.com/Hamid-Manouchehri"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/hamid-manouchehri"}
