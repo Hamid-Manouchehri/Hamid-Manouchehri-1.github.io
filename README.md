@@ -5,9 +5,5 @@
 </p>
 
 <p style="margin: 1% 5% 1% 5%">
-This is <b>Hamid Manouchehri</b>. I am a robotic reseracher who is intereseted in making intelligent practical robots with hands and legs to serve human. 
-I do not consider myself a software nor hardware engineer, rather I'd like to be specialized in combination of software and hardware merely related to robots or more broadly mechatronics systems. I am keen to be involved in projects mostly related to design and control of <b>motion</b>, <b>manipulation</b> and <b>perception</b> of a robot. It's my vision to be an expert in <b>ROS</b> (Robot Operating System) and develop it to be a separate independet operating system for every single robot.
-<br><br>
-
-Currently I'm doing my master thesis about bi-manual manipulation of an upper limb robot with the title of <b>"A Model-based Control System for Bi-manual Object Manipulation"</b> by supervision of Dr. <a href="https://mech.iust.ac.ir/en/faculty/dr-mohammad-shahbazi/"> Mohammad Shahbazi </a> and Dr. <a href="https://profile.ut.ac.ir/en/~bahram"> Bahram Tarvirdizadeh </a>. It is simulation of an object manipulation by two <b>UR5</b> industrial robots in <b>Gazebo</b> that computes inverse dynamics of both arms with a closed-loop force controller. I have finished my master's program on Feb 12 in 2023.
-</p>
+This is <b>Hamid Manouchehri</b>. I have bachelor's degree in <b>Electrical Engineering</b> (Control) and master's degree in <b>Mechatronics Engineering</b>. During my academic experience, I had the vision to acquire the necessary knowledge and skills to do research in the field of robotics.
+After doing my master's thesis on simulation of <b>bimanual manipulation</b> using two UR5 manipulators, I now have a great understanding of simulation, dynamics, kinematics, control, algorithms and open source paltforms like ROS, Gazebo, MOVEit. Also, I had the opportunity to work as a part of a team and learn the required soft skills and teamwork tool such as <b>GitHub</b>.
