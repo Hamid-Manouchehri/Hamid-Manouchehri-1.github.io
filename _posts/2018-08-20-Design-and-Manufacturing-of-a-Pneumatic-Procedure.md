@@ -1,5 +1,5 @@
 ---
-title:  "Design and Manufacturing of a Pneumatic Procedure; Bachelor Project"
+title:  "Design and Manufacturing of a Pneumatic Procedure; B.Sc. Project"
 mathjax: true
 layout: post
 categories: media
