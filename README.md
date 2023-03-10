@@ -9,7 +9,7 @@ This is <b>Hamid Manouchehri</b>. I have bachelor's degree in <b>Electrical Engi
 After doing my master's thesis on simulation of <b>bimanual manipulation</b> using two UR5 manipulators (<a href="https://hamid-manouchehri.github.io/Development-and-Simulation-of-Bimanual-Object-Manipulation/">link</a>), I now have a great understanding of <u> simulation </u>, <u>dynamics</u>, <u>kinematics</u>, <u>control</u>, <u>algorithms</u> and <u>open-source</u> paltforms like ROS, Gazebo, MOVEit. Also, I had the opportunity to work as a part of a team and learn the required soft skills and teamwork tool such as <b>GitHub</b>. Moreover, I have the tendency and enthusiasm to embark on new directions of robotics. <br>
 <b>Research interests</b>:
 <pre>
-      * (mobile) Manipulator                  * Perception and Sensing
-      * Locomotion (Wheeled & legged)         * ROS (Robot Operating System)
-      * Robot Learning                        * Probabilistic Robotics
+        * (mobile) Manipulator                  * Perception and Sensing
+        * Locomotion (Wheeled & legged)         * ROS (Robot Operating System)
+        * Robot Learning                        * Probabilistic Robotics
 </pre>
