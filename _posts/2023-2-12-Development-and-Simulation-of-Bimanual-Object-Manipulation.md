@@ -26,5 +26,6 @@ In this section, a brief description of different parts of the algorithm is show
     <img width="1196" height="560" src="/img/12dof_bimanual_manipulation/architecture.png" alt="algorithm architecture">
 </p>
 
+As you see in Fig.2; first, we have prepared a [URDF](http://wiki.ros.org/urdf) model of UR5 manipulator. Here, it was just some modifications on the predefined validated model of the UR5. Second, the control algorithm is implemented as a ROS node. Third, the desired trajectory for the object in 3D would be interpolated. Forth, the algorithm receives states of the robot (joint position and velocity) from Gazebo and then calculates the desired torque for tracking desired trajectory of the manipulatd object in Cartesian space iteratively. Also, the control loop of the algorithms is shown in the blue block.
 
 
