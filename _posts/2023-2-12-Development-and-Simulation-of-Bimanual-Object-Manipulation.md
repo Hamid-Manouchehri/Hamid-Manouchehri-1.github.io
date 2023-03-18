@@ -34,10 +34,47 @@ As you see in Fig.2; first, we have prepared a [URDF](http://wiki.ros.org/urdf) 
 
 In the following the fundamental formulations related to the modeling, control and calculation of torque would be presented.
 
-<p style="text-align:center;">
-  <img src="[https://latex.codecogs.com/svg.image?P(\hat{M}\ddot{q}&plus;\hat{h})=PS^{T}\tau;&space;\mathbf{(2)}](https://latex.codecogs.com/svg.image?M(q)\ddot{q}&space;&plus;&space;h(q,&space;\dot{q})&space;=&space;S^T\tau&space;&plus;&space;J^T(q)\lambda;&space;(1))" title="bimanual robot and object equation" />
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?M(q)\ddot{q}&space;&plus;&space;h(q,&space;\dot{q})&space;=&space;S^T\tau&space;&plus;&space;J^T(q)\lambda;&space;(1)" title="bimanual robot dynamic equation" />
 </p>
 
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?M_o(q)\dot{v_o}&space;&plus;&space;h_o(z_o,&space;v_o)&space;=&space;-G_o^T(z_o)\lambda;&space;(2)" title="object dynamic equation" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?G_{oi}(z_o)&space;=&space;\begin{bmatrix}&space;I&space;&&space;p_{o/i}\times&space;\\&space;0&space;&&space;I&space;\\\end{bmatrix},&space;G_{oi}(z_o)&space;\in&space;\mathbb{R}^{k&space;\times&space;k},&space;i&space;=&space;\{a,b\}&space;;&space;(3)" title="grasp matrix" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?v_o&space;=&space;G_{oa}^{-1}J_a\dot{q}&space;=&space;G_{ob}^{-1}J_b\dot{q};&space;(4)" title="kinematic constraint equation" />
+</p>
+
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?(J_a&space;-&space;G_{oa}G_{ob}^{-1}J_b)\dot{q}&space;=&space;0;&space;(5)" title="kinematic constraint equation" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?J_g\dot{q}&space;=&space;0,&space;J_g&space;\in&space;\mathbb{R}^{k&space;\times&space;n};&space;(6)" title="kinematic constraint equation" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?\hat{M}\ddot{q}&space;&plus;&space;\hat{h}&space;=&space;S^T\tau&space;&plus;&space;J_g^T\lambda_a;&space;(7)&space;" title="bimanual robot and object dynamic equation" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?\hat{M}&space;=&space;M&space;&plus;&space;J_b^TG_{ob}^{-T}M_oG_{ob}^{-1}J_b;&space;(8)&space;" title="inertial matrix of whole system" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?\hat{h}&space;=&space;h&space;&plus;&space;J_b^TG_{ob}^{-T}(h_o&space;&plus;&space;M_oG_{ob}^{-1}(\dot{J_b}&space;-&space;\dot{G}_{ob}G_{ob}^{-1}J_b)\dot{q});&space;(9)&space;" title="centrifugal and coriolis forces" />
+</p>
+
+<p style="text-align:left;">
+  <img src="" title="" />
+</p>
 
 
 
