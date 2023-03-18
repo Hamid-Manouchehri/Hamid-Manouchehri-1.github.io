@@ -16,9 +16,15 @@ called "__manipulation__". This has usually been done by an [articulated](https:
 
 ### Introduction, Problem Statement
 
-We have simulated manipulation (translational and orientational displacement) of an object by a dual arm robot, in this case; two UR5 manipulators. Simulation is done via __Gazebo__(v9) and __ROS__ (Robot Operating System, Melodic); and for dynamic and kinematic calculations we leveraged [RBDL](https://rbdl.github.io/index.html). There are two controllers used in this research for manipulation, 1. inverse dynamics, 2. constrained QP (Quadratic Programming). According to the proposed inverse dynamics method, it is feasible to calculate contact (end-effector to object) force and torque in the absence of force-torque sensors, and for validation of the results, we compared it with the data measured by sensors placed in the wrist of manipulators. In addition, to avoid singularity and other limitations of Euler's rules for orientation planning of the object, we used quaternion math for this purpose.
+We have simulated manipulation (translational and orientational displacement) of an object by a dual arm robot, in this case; two UR5 manipulators. Simulation is done via __Gazebo__ (v9) and __ROS__ (Robot Operating System, Melodic); and for dynamic and kinematic calculations we leveraged [RBDL](https://rbdl.github.io/index.html). There are two controllers used in this research for manipulation, 1. inverse dynamics, 2. constrained QP (Quadratic Programming). According to the proposed inverse dynamics method, it is feasible to calculate contact (end-effector to object) force and torque in the absence of force-torque sensors, and for validation of the results, we compared it with the data measured by sensors placed in the wrist of manipulators. In addition, to avoid singularity and other limitations of Euler's rules for orientation planning of the object, we used quaternion math for this purpose.
 
+### Architecture of Algorithm
 
+In this section, a brief description of different parts of the algorithm is shown through diagrams.
+
+<p style="text-align:center;">
+    <img width="1196" height="560" src="/img/12dof_bimanual_manipulation/architecture.png" alt="algorithm architecture">
+</p>
 
 
 
