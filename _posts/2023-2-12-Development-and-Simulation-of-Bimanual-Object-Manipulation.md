@@ -133,6 +133,28 @@ And the diagrams for the above trajectory tracking of the object are:
     <img width="1273" height="372" src="/img/12dof_bimanual_manipulation/trajectory_tracking.png" alt="object trajectory tracking">
 </p>
 
+### Quadratic Programming Oprimization
+
+If we want to constrain parameters like torque of motors, contact force-torque and etc, due to some inequality constraints such as maximum torque (motor stall), we are unable to solve the inverse dynamics problem analytically anymore, unless we handle it through optimizing a linear and quadratic cost function which includes all the constraints and dynamics.
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?\frac{1}{2}\tau^TW_{\tau}\tau&space;&plus;&space;b_{\tau}^T\tau&space;&plus;&space;\frac{1}{2}\lambda^TW_{\lambda}\lambda&space;&plus;&space;b_{\lambda}^T\lambda;&space;(18)" title="linear and quadratic cost function" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?\frac{1}{2}\tau^T(W_{\tau}&space;&plus;&space;SW_cS^T)\tau&space;&plus;&space;(b_{\tau}^T&space;-&space;(M\ddot{q}&space;&plus;&space;h)^TW_cS^T&space;-&space;b_c^TS^T)\tau;&space;(19)" title="linear and quadratic cost function" />
+</p>
+
+In accordance with [this]() paper, it is possible to optimize both contact constraints and torque commands simultaneously with a cost function only depends on torque commands (19) with the help of __dynamic redundacy__ of the bimanual robot. Also, inequality constraints of $$A\tau \lt a$$ and $$B\lambda \lt b$$ could be reshaped to constraints depicted below:
+
+
+### Appendix
+
+
+
+### References
+
+
 
 <p style="text-align:left;">
   <img src="" title="" />
