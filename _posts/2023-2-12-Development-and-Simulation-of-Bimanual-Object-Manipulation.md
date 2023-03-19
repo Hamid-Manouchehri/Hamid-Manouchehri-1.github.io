@@ -159,11 +159,22 @@ In accordance with [this]() paper, it is possible to optimize both contact const
   <img src="https://latex.codecogs.com/svg.image?-BR^{-1}Q_c^TS\tau&space;\leqslant&space;b&space;-&space;BR^{-1}Q_c^T(M\ddot{q}_{des}&space;&plus;&space;h),&space;Q_c^T&space;=&space;S_cQ^T;&space;(22)" title="constraint on contact force-torque" />
 </p>
 
-For contact constraints, contact forces are within a __linearized friction cone__. In the following, manipulation under various constraints and object mass are shown, it is done when displacement is zero. 
+For contact constraints, contact forces are within a __linearized friction cone__. In the following, manipulation under various constraints and object mass are shown, it is done for zero motion. 
 
 <p style="text-align:center;">
     <img width="385" height="389" src="/img/12dof_bimanual_manipulation/normal_tangent_forces.png" alt="normal and tangent constraint forces">
 </p>
+
+Now we want to analyze operation of the QP controller under different masses of object and constraints for torque commands and contact forces, diagrams are shown for only right manipulator, the left one is similar to some extent.
+
+<p style="text-align:center;">
+    <img width="1009" height="372" src="/img/12dof_bimanual_manipulation/no_QP.png" alt="no constraint, typical inverse dynamic controller">
+</p>
+
+<p style="text-align:center;">
+    <img width="740" height="561" src="/img/12dof_bimanual_manipulation/QP_different_m.png" alt="apply constraints, QP controller">
+</p>
+
 
 ### Appendix
 
