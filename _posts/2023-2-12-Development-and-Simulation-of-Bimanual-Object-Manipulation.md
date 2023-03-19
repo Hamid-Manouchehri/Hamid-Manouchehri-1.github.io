@@ -111,13 +111,26 @@ To compute the required torque, it is necessary to feed the desired joint accele
   <img src="https://latex.codecogs.com/svg.image?a&space;=&space;\dot{v}_{o,des}&space;&plus;&space;k_{da}(v_{o,des}&space;-&space;v_o)&space;&plus;&space;k_{pa}(z_{o,des}&space;-&space;z_o);&space;(17)" title="generalized acceleration of object in cartesian space" />
 </p>
 
-<p style="text-align:left;">
-  <img src="" title="" />
+### Trajectory Planning
+
+To plan the desired translational and orientational trajectory for the object, we used __quintic__ polynomial interpolation. For translational trajectory, it is straight forward to calculate, and for orientational trajectory in quaternion space, it is the same method presented in [this]() paper. <br>
+
+In the following, manipulation is done for different trajectory scenarios:
+
+<p style="text-align:center;">
+<!--    <video width="523" height="302" poster="/img/pip_inspection_robot/simulation_poster.png" controls> -->
+      <source src="/videos/MSc_dissertation/whole_scenario_*4.mp4" type="video/3gp">
+      Your browser does not support the video tag.
+      <p style="text-align:center;">
+        <b> <i> Video. 1, Bimanual manipulation, Gazebo </i> </b>
+      </p>
+   </video>
 </p>
 
-<p style="text-align:left;">
+
+<!-- <p style="text-align:left;">
   <img src="" title="" />
-</p>
+</p> -->
 
 
 
