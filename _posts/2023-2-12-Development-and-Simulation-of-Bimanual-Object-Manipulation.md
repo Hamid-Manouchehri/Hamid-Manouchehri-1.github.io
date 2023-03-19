@@ -147,6 +147,23 @@ If we want to constrain parameters like torque of motors, contact force-torque a
 
 In accordance with [this]() paper, it is possible to optimize both contact constraints and torque commands simultaneously with a cost function only depends on torque commands (19) with the help of __dynamic redundacy__ of the bimanual robot. Also, inequality constraints of $$A\tau \lt a$$ and $$B\lambda \lt b$$ could be reshaped to constraints depicted below:
 
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?PS^T\tau&space;=&space;P(\hat{M}\ddot{q}_{des}&space;&plus;&space;\hat{h});&space;(20)" title="unconstrained dynamic of bimanual robot and object" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?A\tau&space;\leqslant&space;a;&space;(21)" title="constraint on torque commands" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?-BR^{-1}Q_c^TS\tau&space;\leqslant&space;b&space;-&space;BR^{-1}Q_c^T(M\ddot{q}_{des}&space;&plus;&space;h),&space;Q_c^T&space;=&space;S_cQ^T;&space;(22)" title="constraint on contact force-torque" />
+</p>
+
+For contact constraints, contact forces are within a __linearized friction cone__. In the following, manipulation under various constraints and object mass are shown, it is done when displacement is zero. 
+
+<p style="text-align:center;">
+    <img width="385" height="389" src="/img/12dof_bimanual_manipulation/normal_tangent_forces.png" alt="normal and tangent constraint forces">
+</p>
 
 ### Appendix
 
