@@ -8,8 +8,8 @@ categories: media
 ### Abstract
 
 Manipulating an object or in more general terms, the ability of the robot to interact with its environment, for modification and enhancing that, is
-called "__manipulation__". This has usually been done by an [articulated](https://en.wikipedia.org/wiki/Articulated_robot) robot equipped with a gripper. Within this research, the manipulation will be done by occupation of two articulated robotic arms, while after holding the object, the set of two robotic arms and the object make a closed dynamic chain.
-The most significant aspect of optimal bi-manual manipulation against manipulation with only one articulated robotic arm is, __having a better and more efficient control on manipulation__. In this method, bi-manual manipulation of the object acquires dynamic models of both arms and the object. Also, in typical methods of object manipulation, it is common to measure or estimate contact forces by sensors. Due to the intrinsic complexity of the whole system dynamics, measurement of the constraint generalized forces in the contacts of object and arms needs high precision sensors and periodic calibration, also force-torque sensors have limited range, steady state error and include noise. So it is desirable to __calculate__ them in the __absence of force-torque sensors__.
+called "__manipulation__". This has usually been done by an [articulated](https://en.wikipedia.org/wiki/Articulated_robot) robot equipped with a gripper. Within this research, the manipulation will be done by occupation of two articulated robotic arms, while after holding the object, the set of two robotic arms and the object make a closed dynamic chain. <br>
+The most significant aspect of optimal bi-manual manipulation against manipulation with only one articulated robotic arm is, __having a better and more efficient control on manipulation__. In this method, bi-manual manipulation of the object acquires dynamic models of both arms and the object. Also, in typical methods of object manipulation, it is common to measure or estimate contact forces by sensors. Due to the intrinsic complexity of the whole system dynamics, measurement of the constraint generalized forces in the contacts of object and arms needs high precision sensors and periodic calibration, also force-torque sensors have limited range, steady state error and include noise. So it is desirable to __calculate__ them in the __absence of force-torque sensors__. <br>
 Analytical calculation of the inverse dynamics for a closed-chain robotic system in the absence of force-torque sensors in wrist is not easy to implement, because of the constraint term in the equation of the motion. Thanks to a method called “__Orthogonal Decomposition__”, the aforementioned problem is handled, though. In addition, by designing the null-space of the task, we would be able to control the squeeze and motion terms of forces for manipulation. What we want to develop in this research is according to the previous researches, but in a physics-based simulation environment, Gazebo, via two [UR5](https://www.universal-robots.com/products/ur5-robot/) robot manipulators under some __oiptimizations__ for constraints and trajectory planning in [quaternion](https://en.wikipedia.org/wiki/Quaternion) space.
 
 <p style="text-align:center;">
@@ -70,6 +70,33 @@ In the following the fundamental formulations related to the modeling, control a
 
 <p style="text-align:left;">
   <img src="https://latex.codecogs.com/svg.image?\hat{h}&space;=&space;h&space;&plus;&space;J_b^TG_{ob}^{-T}(h_o&space;&plus;&space;M_oG_{ob}^{-1}(\dot{J_b}&space;-&space;\dot{G}_{ob}G_{ob}^{-1}J_b)\dot{q});&space;(9)&space;" title="centrifugal and coriolis forces" />
+</p>
+
+As you see, we could derive the whole dynamics equation of bimanual robot and object in (7) by merging bimanual robot dynamic (1) and object dynamic (2) equations via the defined __Grasp Matrix__ (3). 'k' is the number of constraints per each end-effector and 'n' is bimanual robot degrees of freedom. The jacobian matirix in (6) is called __Grasp Jacobian__. <br>
+Now, lets calculate the inverse dynamics solution by "QR" decomposition of transposed grasp jacobian:
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?J_g^T&space;=&space;\hat{Q}[\hat{R}^T&space;0]^T;&space;(10))" title="QR decomposition of grasp jacobian" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?P_{QR}&space;=&space;\hat{S}_u&space;\hat{Q}^T,&space;\hat{S}_u&space;=&space;[0_{(n-k)&space;\times&space;k}&space;I_{n-k}];&space;(11)" title="kinematic projector" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?P(\hat{M}\ddot{q}&space;&plus;&space;\hat{h})&space;=&space;PS^T\tau;&space;(12)" title="unconstrained dynamic" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?\tau(W,&space;\tau_0)&space;=&space;(PS^T)^{\sharp}P(\hat{M}\ddot{q}_{des}&space;&plus;&space;\hat{h})&space;&plus;&space;(I&space;-&space;(PS^T)^{\sharp}PS^T)W^{-1}\tau_0;&space;(13)" title="inverse dynamics equation of bimanual robot" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?(PS^T)^{\sharp}&space;\overset{\underset{\mathrm{def}}{}}{=}&space;W^{-\frac{1}{2}}(PS^TW^{-\frac{1}{2}})^&plus;;&space;(14)" title="W-weighted generalized inverse" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?\lambda_a&space;=&space;\hat{R}^{-1}\hat{S}_c\hat{Q}^T(\hat{M}\ddot{q}_{des}&space;&plus;&space;\hat{h}&space;-&space;S^T\tau),&space;\hat{S}_c&space;=&space;[I_k&space;0_{k&space;\times&space;(n-k)}];&space;(15)" title="constrained (external) froce-torque" />
 </p>
 
 <p style="text-align:left;">
