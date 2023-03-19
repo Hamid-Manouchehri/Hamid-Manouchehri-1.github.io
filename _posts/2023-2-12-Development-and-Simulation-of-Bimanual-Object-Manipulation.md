@@ -113,7 +113,7 @@ To compute the required torque, it is necessary to feed the desired joint accele
 
 ### Trajectory Planning
 
-To plan the desired translational and orientational trajectory for the object, we used __quintic__ polynomial interpolation. For translational trajectory, it is straight forward to calculate, and for orientational trajectory in quaternion space, it is the same method presented in [this]() paper. <br>
+To plan the desired translational and orientational trajectory for the object, we used __quintic__ polynomial interpolation. For translational trajectory, it is straight forward to calculate, and for orientational trajectory in quaternion space, it is the same method presented in [this](https://ieeexplore.ieee.org/document/8324769) paper. <br>
 
 In the following, manipulation is done for different trajectory scenarios:
 
@@ -145,7 +145,7 @@ If we want to constrain parameters like torque of motors, contact force-torque a
   <img src="https://latex.codecogs.com/svg.image?\frac{1}{2}\tau^T(W_{\tau}&space;&plus;&space;SW_cS^T)\tau&space;&plus;&space;(b_{\tau}^T&space;-&space;(M\ddot{q}&space;&plus;&space;h)^TW_cS^T&space;-&space;b_c^TS^T)\tau;&space;(19)" title="linear and quadratic cost function" />
 </p>
 
-In accordance with [this]() paper, it is possible to optimize both contact constraints and torque commands simultaneously with a cost function only depends on torque commands (19) with the help of __dynamic redundacy__ of the bimanual robot. Also, inequality constraints of $$A\tau \lt a$$ and $$B\lambda \lt b$$ could be reshaped to constraints depicted below:
+In accordance with [this](https://www.researchgate.net/publication/235771029_Optimal_distribution_of_contact_forces_with_inverse_dynamics_control) paper, it is possible to optimize both contact constraints and torque commands simultaneously with a cost function only depends on torque commands (19) with the help of __dynamic redundacy__ of the bimanual robot. Also, inequality constraints of $$A\tau \lt a$$ and $$B\lambda \lt b$$ could be reshaped to constraints depicted below:
 
 <p style="text-align:left;">
   <img src="https://latex.codecogs.com/svg.image?PS^T\tau&space;=&space;P(\hat{M}\ddot{q}_{des}&space;&plus;&space;\hat{h});&space;(20)" title="unconstrained dynamic of bimanual robot and object" />
@@ -175,18 +175,21 @@ Now we want to analyze operation of the QP controller under different masses of 
     <img width="740" height="561" src="/img/12dof_bimanual_manipulation/QP_different_m.png" alt="apply constraints, QP controller">
 </p>
 
+As you see in fig. 6, QP controller increases normal force ($$ F_y $$) to hold the object, while its mass increases and also satisfy constraint conditions. Contact forces are measured via force sensors, placed in the wrist of UR5 manipulators.
 
 ### Appendix
 
+This project aimed to be open-source, considering all the drawbacks and ambiguities, it is better to take a look at the __source code__ repository and check what seems unclear. ([link](https://github.com/Hamid-Manouchehri/bimanual_ur5))
 
 
 ### References
 
-
-
-<p style="text-align:left;">
-  <img src="" title="" />
-</p>
+[1] [Inverse Dynamics Control of Bimanual Object Manipulation Using Orthogonal Decomposition: An Analytic Approach](https://www.researchgate.net/publication/320330613_Inverse_Dynamics_Control_of_Bimanual_Object_Manipulation_Using_Orthogonal_Decomposition_An_Analytic_Approach) <br>
+[2] [A Unified Approach for Inverse and Direct Dynamics of Constrained Multibody Systems Based on Linear Projection Operator: Applications to Control and Simulation](https://ieeexplore.ieee.org/document/1512343) <br>
+[3] [Inverse Dynamics Control of Floating Base Systems Using Orthogonal Decomposition](https://ieeexplore.ieee.org/document/5509646) <br>
+[4] [Optimal distribution of contact forces with inverse-dynamics control](https://www.researchgate.net/publication/235771029_Optimal_distribution_of_contact_forces_with_inverse_dynamics_control) <br>
+[5] [Orientation Planning in Task Space Using Quaternion Polynomials](https://ieeexplore.ieee.org/document/8324769) <br>
+[6] [On the Orientation Planning with Constrained Angular Velocity and Acceleration at Endpoints](https://ieeexplore.ieee.org/document/8593657) <br>
 
 
 
