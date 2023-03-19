@@ -127,10 +127,16 @@ In the following, manipulation is done for different trajectory scenarios:
    </video>
 </p>
 
+And the diagrams for the above trajectory tracking of the object are:
 
-<!-- <p style="text-align:left;">
+<p style="text-align:center;">
+    <img width="1273" height="372" src="/img/12dof_bimanual_manipulation/trajectory_tracking.png" alt="object trajectory tracking">
+</p>
+
+
+<p style="text-align:left;">
   <img src="" title="" />
-</p> -->
+</p>
 
 
 
