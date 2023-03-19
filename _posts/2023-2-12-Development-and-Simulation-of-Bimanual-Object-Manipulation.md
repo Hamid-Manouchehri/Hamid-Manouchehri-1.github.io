@@ -76,7 +76,7 @@ As you see, we could derive the whole dynamics equation of bimanual robot and ob
 Now, lets calculate the inverse dynamics solution by "QR" decomposition of transposed grasp jacobian:
 
 <p style="text-align:left;">
-  <img src="https://latex.codecogs.com/svg.image?J_g^T&space;=&space;\hat{Q}[\hat{R}^T&space;0]^T;&space;(10))" title="QR decomposition of grasp jacobian" />
+  <img src="https://latex.codecogs.com/svg.image?J_g^T&space;=&space;\hat{Q}[\hat{R}^T&space;0]^T;&space;(10)" title="QR decomposition of grasp jacobian" />
 </p>
 
 <p style="text-align:left;">
@@ -97,6 +97,22 @@ Now, lets calculate the inverse dynamics solution by "QR" decomposition of trans
 
 <p style="text-align:left;">
   <img src="https://latex.codecogs.com/svg.image?\lambda_a&space;=&space;\hat{R}^{-1}\hat{S}_c\hat{Q}^T(\hat{M}\ddot{q}_{des}&space;&plus;&space;\hat{h}&space;-&space;S^T\tau),&space;\hat{S}_c&space;=&space;[I_k&space;0_{k&space;\times&space;(n-k)}];&space;(15)" title="constrained (external) froce-torque" />
+</p>
+
+By pre-multiplying (11) by (7), we are able to break the dynamic equation (7) into a constrained and unconstrained (12) equations; now, the inverse dynamics would be calculated by (13), and by substituting the calculated torque into (7), we can compute the constrained force-torque analytically (15). <br>
+
+To compute the required torque, it is necessary to feed the desired joint acceleration:
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?\ddot{q}_{des}&space;=&space;\begin{bmatrix}&space;J_g&space;\\&space;G_{ob}^{-1}J_b\end{bmatrix}^&plus;(\begin{bmatrix}&space;0&space;\\&space;a\end{bmatrix}&space;-&space;\begin{bmatrix}&space;\dot{J}_g&space;\\&space;G_{ob}^{-1}(\dot{J}_b&space;-&space;\dot{G}_{ob}G_{ob}^{-1}J_b)\end{bmatrix}\dot{q});&space;(16)" title="desired joint acceleration" />
+</p>
+
+<p style="text-align:left;">
+  <img src="https://latex.codecogs.com/svg.image?a&space;=&space;\dot{v}_{o,des}&space;&plus;&space;k_{da}(v_{o,des}&space;-&space;v_o)&space;&plus;&space;k_{pa}(z_{o,des}&space;-&space;z_o);&space;(17)" title="generalized acceleration of object in cartesian space" />
+</p>
+
+<p style="text-align:left;">
+  <img src="" title="" />
 </p>
 
 <p style="text-align:left;">
