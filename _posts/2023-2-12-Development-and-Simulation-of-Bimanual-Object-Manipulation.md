@@ -122,7 +122,7 @@ In the following, manipulation is done for different trajectory scenarios:
       <source src="/videos/MSc_dissertation/whole_scenario_*4.mp4" type="video/mp4">
       Your browser does not support the video tag.
       <p style="text-align:center;">
-        <b> <i> Video. 1, Bimanual manipulation, Gazebo </i> </b>
+        <b> <i> Video. 1, Bimanual manipulation, Gazebo (4 times faster) </i> </b>
       </p>
    </video>
 </p>
