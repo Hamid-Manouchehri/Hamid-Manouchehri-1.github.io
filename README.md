@@ -11,11 +11,11 @@ After completing my master's thesis on simulating bimanual manipulation using tw
 
 <!-- <b>Research interests</b>: -->
 <pre>
-<b>Research interests</b>:
+      <b>Research interests</b>:
 
-        * Manipulator (Mobile / Fixed)               * Robot Control Algorithms
-        * Locomotion (Wheeled / Legged)              * Simulation & Dynamic Modeling
-        * Autonomous Robot (Navigation)              * Planning & Optimization
+            * Manipulator (Mobile / Fixed)               * Robot Control Algorithms
+            * Locomotion (Wheeled / Legged)              * Simulation & Dynamic Modeling
+            * Autonomous Robot (Navigation)              * Planning & Optimization
 </pre>
 <b>Technical Robotic Skills</b>:
 <pre>
