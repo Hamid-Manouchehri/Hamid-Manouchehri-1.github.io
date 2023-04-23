@@ -10,7 +10,7 @@ This is <i>Hamid Manouchehri</i>. I have a bachelor's degree in <u>electrical en
 After completing my master's thesis on simulating <b>bimanual manipulation</b> using two UR5 manipulators (<a href="https://hamid-manouchehri.github.io/Development-and-Simulation-of-Bimanual-Object-Manipulation/">link</a>), I now have a comprehensive understanding of simulation, dynamic modeling, kinematics, control, algorithms and planning. I have also had the opportunity to work as part of a team and learn the necessary soft skills. What I really like about robotics is the close intersection between theorical formulation and experimental validation.
 
 <pre>
-        <b>Research interests</b>:
+       <b>Research interests</b>:
 
             * Manipulator (Mobile / Fixed)               * Robot Control Algorithms
             * Locomotion (Wheeled / Legged)              * Simulation & Dynamic Modeling
@@ -18,7 +18,7 @@ After completing my master's thesis on simulating <b>bimanual manipulation</b> u
 </pre>
 
 <pre>
-        <b>Technical Robotic Skills</b>:
+       <b>Technical Robotic Skills</b>:
         
             * Robot Operating System (ROS1)              * CAD (SolidWorks)
             * MOVEit                                     * Embedded System Design (PIC MCU)
@@ -27,7 +27,7 @@ After completing my master's thesis on simulating <b>bimanual manipulation</b> u
 </pre>
 
 <pre>
-        <b>Top Strengths</b>:
+       <b>Top Strengths</b>:
         
             * Strategic Thinking                         * Team Player 
             * Critical & Innovative Thinking             * Project Management
