@@ -13,7 +13,7 @@ After doing my master's thesis on simulation of <b>bimanual manipulation</b> usi
         * Manipulator (Mobile / Fixed)               * Robot Control Algorithms
         * Locomotion (Wheeled / Legged)              * Simulation & Dynamic Modeling
         * Autonomous Robot (Navigation)              * Planning & Optimization
-</pre>
+</pre><br>
 
 <b>Technical Robotic Skills</b>:
 <pre>
