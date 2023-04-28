@@ -155,4 +155,8 @@ And the __lower level__ controller is:
   <img src="https://latex.codecogs.com/svg.image?\omega_2=-k_{av}\dot{\alpha}-k_a(\alpha-\alpha_r);\mathbf{(17)}" title="" />
 </p>
 
+#### References
+
+[1] [Velocity and Position Control of a Wheeled Inverted Pendulum by Partial Feedback Linearization](https://www.researchgate.net/publication/4142869_Velocity_control_of_a_wheeled_inverted_pendulum_by_partial_feedback_linearization) <br>
+
 To get more details, please refer to the papaer and keep in touch with me. :)
