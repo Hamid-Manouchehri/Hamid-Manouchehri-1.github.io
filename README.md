@@ -12,9 +12,9 @@ After completing my master's thesis on simulating <b>bimanual manipulation</b> u
 <pre>
        <b>Research interests</b>:
 
-            * Manipulator (Mobile / Fixed)               * Robot Control Algorithms
+            * Manipulator (Mobile / Fixed)               * Control Algorithms
             * Locomotion (Wheeled / Legged)              * Simulation & Dynamic Modeling
-            * Autonomous Robot (Navigation)              * Planning & Optimization
+            * Planning & Optimization
 </pre>
 
 <pre>
